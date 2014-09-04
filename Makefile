@@ -1,5 +1,6 @@
 
-TARGET=domino-study_hri15.tex
+#TARGET=domino-study_hri15.tex
+TARGET=paper.tex
 
 DOT=$(wildcard figures/*.dot)
 SVG=$(wildcard figures/*.svg)
