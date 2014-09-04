@@ -1,0 +1,501 @@
+\documentclass{sig-alternate}
+
+% UTF8 support
+\usepackage[utf8x]{inputenc}
+
+\usepackage{subfig}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{multirow}
+
+\newcommand{\eg}{{\textit{e.g.~}}}
+\newcommand{\etal}{{\textit{et al.~}}}
+\newcommand{\ie}{{\textit{i.e.~}}}
+
+
+
+%
+% --- Author Metadata here ---
+\conferenceinfo{10th ACM/IEEE International Conference on Human-Robot Interaction}{2015 Portland, USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{\LARGE \bf
+How Children Perceive and Interact with a Robot that Behaves Unexpectedly - The Domino Experiment
+}
+
+%%% HRI 2015 -> double-blind review process
+
+%\numberofauthors{1} 
+%\author{
+%\alignauthor
+%Julia Fink, S\'{e}verin Lemaignan, Pierre Dillenbourg\\
+%%\titlenote{Dr.~Trovato insisted his name be first.}
+%       \affaddr{Computer-Human Interaction in Learning and Instruction Lab (CHILI)}\\
+%       \affaddr{Ecole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL)}\\
+%       \affaddr{CH-1015 Lausanne}\\
+%       \affaddr{Switzerland}\\
+%       \email{firstname.lastname@epfl.ch}
+%}
+%
+%\additionalauthors{Additional authors: 
+%Francesco Mondada, LSRO, EPFL, francesco.mondada@epfl.ch 
+%}
+%
+
+\begin{document}
+\maketitle
+\begin{abstract}
+
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction: Towards Sustained Engagement}
+
+\textbf{Engagement} is a metric that has been extensively used and studied both
+in HRI and interactions with other agent-like systems. It has been defined from
+several perspectives. For example \cite{sidner_where_2004} define engagement as
+\textit{``the process by which two (or more) participants establish, maintain
+and end their perceived connections''}. A definition of long-term engagement is
+proposed by \cite{bickmore_maintaining_2010}: \textit{``the degree of
+involvement a user chooses to have with a system over time''}.
+
+Different possibilities to foster engagement (both short- and long-term
+engagement) in HRI have been explored, in particular with social robots. A lot
+of research has moved toward creating sophisticated emotional models which cause
+complex robot behavior. Some other work
+\cite{bickmore_maintaining_2010,short_no_2010} has shown that there can be much
+simpler ways to enhance engagement. 
+
+\cite{bickmore_maintaining_2010} describe a series of longitudinal studies on
+engagement with an agent-like system. They demonstrated that user engagement
+with an interface agent can be increased using relatively simple techniques and
+manipulations that make the agent more life-like and human. For instance, when
+the agent showed variations in its behavior, participants were more engaged and
+reported a desire to continue interacting with the agent.
+
+Similarly, more looking at short-term engagement, \cite{short_no_2010} found
+that a simple manipulation of the robot's behavior can lead to greater
+engagement. The authors let participants play several rounds of the
+rock-paper-scissors game with the robot (the playfulness of the scenario seems
+important). When the robot was cheating from time to time, participants tended
+to ascribe intention to the robot what in turn led to greater engagement in how
+they were interacting with the robot. The mechanism behind the cheating action
+that the robot showed, was that participants did not expect this behavior from
+the robot. The authors suggest that \textit{``any deviation from expected
+operation is sufficient to create a greater degree of engagement in the
+interaction.''} Moreover, \cite[p.~225]{short_no_2010} proposed that
+\textit{``many interactions can be improved by the introduction of such simple
+behaviors, and that this should be exploited by designers in HRI. Bringing human
+and robot together to perform a simple, repetitive, familiar task and then
+having the robot behave unexpectedly can increase engagement and mental state
+attribution without complex behavioral or mechanical additions.''}
+\cite{leite_long-term_2013} studied the long-term engagement of children with a
+chess playing robot that adapted its behavior to the children and showed empathy
+toward them. She found that empathetic robots are more likely to engage users in
+the long-term and they proposed several guidelines for designing such artificial
+companions. Our aim for the ``Domino Study'' is however less ambitious than
+creating a long-term robot companion. We are still at an early stage of the
+development and are using a remote controlled prototype as we did in the
+previous study. What we would like to achieve in this study is to find out how
+we can enhance children's experience with the robot so that they do not find it
+repetitive and boring to interact with Ranger. In general, repetitiveness is
+likely to decrease a user's motivation to continue using a system
+\cite{bickmore_establishing_2005}.
+
+We present in this article a study that explores possibilities of sustaining
+children's engagement with the Ranger~\cite{mondada2014ranger} robot by
+manipulating the robot's behavior in such way that it appears
+\textit{unexpected} to the children. We examine how different variations of
+robot behavior impact children's interaction with Ranger and their perception of
+it (\eg in terms of attributing intention and cognitive abilities to the robot).
+
+Using a playful domino game as the interaction scenario, we refer to this study
+hereafter as the \textbf{``Domino Study''}.
+
+\subsection{Research Questions and Hypotheses}
+
+In the Domino Study, we analyze child-robot interaction with a robot that shows
+unexpected behaviour. In a playful scenario which was set up in a laboratory
+environment, 26 children aged 4-5 years were assembling a domino game together.
+Each group consisted of two children and the \emph{Ranger} robot, which was used
+to transport domino tiles between the two children.
+
+Ranger usually behaved correctly (expected behaviour), coming over to a child
+after being called and delivering the domino tile to the other child. However,
+in pre-defined rounds, Ranger showed unexpected behaviour when a child called the
+robot. We defined three different types of \textit{misbehaviour} that were tested
+in a between-subjects study design:
+
+\begin{itemize}
+
+    \item The robot makes a \textbf{mistake}: When called by the child to come
+    over, the robot goes wrong but recognizes its mistake and repairs. We expect
+    this to be perceived (explicitly) as \textit{``to err is human''}, and
+    (implicitly) as the robot being endowed with a certain level of
+    introspective capabilities (it was able to recognize its own error). In this
+    condition, we assume increased attributions of human-likeness to the
+    robot.\footnote{The attribution of human-likeness to a robot is labeled as
+    \textit{anthropomorphism}, and we will hereafter sometimes use ``attribute
+    intention'' and ``anthropomorphize'' synonymously.} 
+
+    \item The robot gets \textbf{lost}: When called by the child to come over,
+    the robot goes wrong, without any observable reason, and remains at the
+    wrong location. We expect this to be perceived as a bug or system error
+    which causes the robot to not work correctly, and hypothesize decreased
+    attributions of human-likeness to the robot.
+
+    \item The robot \textbf{disobey}: When called by the child to come over, the
+    robot shows it refuses to obey by literally ``shaking its head'' and
+    becoming red. The robot then goes to a wrong location and remains there
+    while it continues to shake its head. We expect the disobey behaviour to be
+    perceived as the robot having an \textit{``own will''}, and we assume this
+    leads to increased attributions of human-likeness (ascribing intentionality)
+    to the robot.
+
+\end{itemize}
+
+We analyzed children's reaction focusing on two main aspects. On one hand,
+children's \textbf{behaviour} (their reactions) toward the unexpected robot
+behaviour was studied in terms of \textbf{active engagement} with the robot. On
+the other hand, we analyzed children's \textbf{perception} of the robot in term
+of \textbf{anthropomorphism} -- the attribution of human-like characteristics,
+such as cognitive abilities and the ability to show intentions. We assumed that
+in general a robot that behaves unexpectedly from time to time can promote
+engagement and lead children to attribute intention to it. \cite{short_no_2010}
+found that participants anthropomorphize a cheating robot more than a robot that
+always behaves fairly, and also evaluate the interaction as more engaging. Based
+on the related work we formulate the following two hypotheses:
+
+\begin{description}
+
+    \item[Hypothesis 1:] Children show more engagement toward a robot that
+        behaves unexpectedly from time to time compared to a robot that always
+        behaves correctly (within subjects variable).
+
+    \item[Hypothesis 2:] Children perceive a robot that shows intention or
+        cognitive abilities as more human-like than a robot that appears to have
+        a system error, \ie the disobeying robot and the robot that makes a
+        mistake will be more anthropomorphized than the robot that gets lost
+        (between subjects variable).
+
+\end{description}
+
+Our research questions deal with both children's observable behaviour and their
+perception of the robot. We would also like to explore the relation between
+these two aspects, related to the attribution of human-like characteristics to
+the robot. The motivation behind this is to find out whether
+\textit{anthropomorphism} can not only be measured as a specific type of
+perception but also as an observable behaviour in the interaction itself. Thus,
+we would like to bridge things together and, relying on the concept of an
+\textbf{anthropomorphism index} introduced by~\cite{fink2014dynamics}, build a
+compound metric that considers both children's perception and interaction
+aspects (qualitatively). Previous work suggests that a social relation to a
+robot (we view anthropomorphism as a specific type of social relation) reflects
+an increased engagement and can be effective in sustaining interaction.
+Consequently, we formulate a third hypotesis:
+
+\begin{description}
+
+    \item[Hypothesis 3:] Anthropomorphic perception of the robot and the amount
+    of engagement in the interaction positively correlate.
+
+\end{description}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Scenario and Research Methodology}
+
+\subsection{The Ranger robot}
+
+We used the same prototype as in the previous study, and Ranger was again
+controlled by a human Wizard, who was in the same room (see
+Figure~\ref{fig:domino-setup}). This was to ensure that the Wizard could see
+children's interaction and hear their commands to the robot without any delay.
+
+\subsection{The Domino scenario}
+
+\subsubsection{Experimental setting}
+
+\begin{figure}[ht!] 
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{domino-setup.pdf} 
+    \caption{\small The study took place in one of the rooms in the lab. One
+    child is located in a tent (referred to as \textit{the receiver}), while the
+    other (referred to as \textit{the searcher}) is asked to sit on one of the
+    three beanbags, behind which each 3 domino tiles are distributed (displayed
+    as black stars). A playground with a river drawn on it is used as an
+    imaginary barrier that only the robot is allowed to cross. The solid green
+    arrows, show the robot's path for the \textit{correct} behaviour. The blue
+    dashed arrow visualizes a possible \textit{lost} path, where the Ranger
+    stops and remains at a wrong stop (denoted by the blue cross). The yellow
+    arrows reflect a possible \textit{mistake} path, where the robot goes wrong
+    but then turns back and goes to the searcher child. The red dashed arrow
+    visualizes a possible \textit{disobey} path where the robot goes wrong, then
+    turns toward the child but remains at the wrong stop (red cross).} 
+
+    \label{fig:domino-setup} 
+\end{figure}
+
+
+The basic idea of the interaction scenario was that there are two children who
+play domino together, with the help of the robotic box Ranger. The scenario
+setup is displayed in Figure~\ref{fig:domino-setup}. The challenge is that the
+tiles of the domino are distributed in the room, hidden behind three beanbags,
+and while one child -- \textit{the searcher} -- searches for the right tile, the
+other child -- \textit{the receiver} -- is asked to stay in a play tent. There
+is a ``river'' (play carpet) in between the two children that we told them they
+cannot cross and therefore they need the robot to transport the domino tiles
+between them.
+
+We used a self-made domino consisting of 10 wooden tiles (10~x~20~x~1.5~cm) with
+pictures of cartoon farm animals: cow, sheep, hen, donkey, duck, pig, rabbit. The
+pictures were taken from a commercially available domino game adapted to the age
+of the children (produced by Djeco, advised age 3+). 
+
+To start the game (divided in several \textit{runs} that correspond each to the
+delivery and assembling of one domino tile), there is already one domino tile in
+front of the tent, where \textit{the receiver} child stays and assembles the
+domino chain. \textit{The receiver} child asks \textit{the searcher} child for a
+specific tile, \eg a tile with a donkey, \textit{the searcher} searches for the
+respective tile, sits down on the next beanbag, and asks the robot to come over.
+The Ranger robot is first located next to the tent, then, when called by the
+\textit{searcher} it starts moving, crosses the river carpet, and comes over to
+the \textit{searcher} on the beanbag. The \textit{searcher} child puts the
+domino tile into the robotic box, and the robot then goes back to \textit{the
+receiver} child in the tent. Then, \textit{the receiver} takes out the domino
+tile from the robot, and puts the two tiles together. The first \textit{run} is
+over, and a new \textit{run} starts, when \textit{the receiver} asks \textit{the
+searcher} for the next domino tile.
+
+\subsubsection{Course of the study}
+
+In our study, there were a total of 14 runs, and at each run, the robot exhibits
+one out of four possible behaviours: \emph{correct}, \emph{mistake}, \emph{lost}
+or \emph{disobey}.  The first 5 runs were used to set the baseline and the robot
+always behaved correctly. In the 9 remaining runs, the robot showed one of the
+misbehaviour (\emph{mistake}, \emph{lost} or \emph{disobey}) at the $3^{rd}$ and
+$4^{th}$ run as well as at the $7^{th}$ and $8^{th}$ run. The study is build as
+a between-subject study, and the type of misbehaviour was therefore always the
+same for a given group.
+
+Special attention has been paid to the distribution of misbehaving runs during
+the study. The five first correct runs aims at setting the children expectation
+regarding a consistent robot behaviour. When the robot then exhibits an
+unexpected behaviour, children are likely to be positively surprised. A similar
+effect has been observed in a study with a robot that was cheating from time to
+time~\cite{short_no_2010}.  Besides, to prevent the robot misbehaviours to be
+immediately interpreted as failures, we introduce these misbehaviour neither at
+the very beginning nor at very end of the interaction
+(\cite{desai_effects_2012,desai_impact_2013} show that early and late robot
+failures negatively impact trust).
+
+\cite{short_no_2010} also adopted a similar pattern when introducing unexpected
+robot behaviour. In their study with a robot that cheated, from the 20 rounds of
+the rock-paper-scissors game, the robot cheated three times in the middle: on
+the 4th, 8th and 15th round. The authors adjusted the interaction length so that
+the spacing and timing of the cheating was preserved.
+
+\begin{figure}[!t]
+    \centering
+    \subfloat[mistake]{
+        \label{fig:domino-mistake}
+        \includegraphics[width=0.3\columnwidth]{domino-mistake.png}
+    }
+    \subfloat[lost]{
+        \label{fig:domino-lost}
+        \includegraphics[width=0.4\columnwidth]{domino-lost.png}
+    }
+    \subfloat[disobey]{
+        \label{fig:domino-disobey}
+        \includegraphics[width=0.3\columnwidth]{domino-disobey.png}
+    }
+    \caption{\small The three robot misbehaviours.}
+    \label{fig:domino-misbehaviour}
+\end{figure}
+
+In the \emph{correct} robot behaviour (baseline behaviour) consists in the
+following states:
+
+\begin{itemize}
+
+    \item \emph{Domino tile put in robot:} Ranger makes a ``rewarding'' sound
+        and shows a green light pattern,
+
+    \item \emph{Domino tile removed from robot:} Ranger makes an ``emptying''
+        sound and shows a green light pattern,
+
+    \item \emph{Robot is called by one of the children:} When one of the
+    children called the robot saying something like \textit{``Robot come
+    here!''}, the robot starts moving toward the child (Ranger does not react to
+    any other verbal commands).
+
+    \item \emph{Robot reaches one of the children:} When in front of one of the
+    children who should either put or remove a domino tile, Ranger stops and
+    shows a pulsating yellow light pattern. If no reaction, Ranger also makes a
+    wiggle-like move.
+
+\end{itemize}
+
+During the misbehaving runs, the robot's behaviour is manipulated in three
+possible ways:
+
+\begin{itemize}	
+
+    \item \textbf{Mistake:} The sender child calls Ranger. The robot goes until
+    it is on the carpet, stops, turns, and goes wrong (see yellow path in
+    Figure~\ref{fig:domino-setup}). Then, Ranger waits ($\sim$2~sec), turns its
+    ``face'' toward the sender child, and ``blushes'' red around its ``cheeks''
+    (as if it recognizes its wrong position) and finally goes correctly over to
+    the sender child. The \textit{mistake} behaviour is \textit{robot-repaired},
+    as no human-intervention is needed.
+
+    \item \textbf{Lost:} After being called, Ranger goes until it is on the
+    carpet. There, it stops, turns, and goes wrong (see blue path in
+    Figure~\ref{fig:domino-setup}). Once at the wrong position, Ranger waits
+    with its ``face'' turned away from the child, and it blinks in yellow light,
+    as if it was in front of a child. Ranger remains waiting at the wrong
+    position until the experimenter tells the child to go over to the robot to
+    put the domino tile. The \textit{lost} behaviour is \textit{human-repaired},
+    as it needs human-intervention.
+
+    \item \textbf{Disobey:} After being called, Ranger goes until it is on the
+    carpet. It then stops, makes red
+    light all over its surface and produces a repeated ``disturbance'' sound. It
+    turns, and goes to a wrong position (see red path in
+    Figure~\ref{fig:domino-setup}). Still blinking in red, it turns its ``face''
+    toward the sender child. In addition to the red blinking, Ranger
+    makes a slow wiggle-like move, and remains waiting at the wrong position
+    until the experimenter tells the child to go over to the robot to put the
+    domino tile. The \textit{disobey} behaviour is also \textit{human-repaired}.	
+
+\end{itemize}
+
+On its way back to the tent, Ranger always goes correctly. After the sender
+child has put a domino tile, Ranger automatically turns and goes over to the
+tent (the receiver child does not need to call the robot). The receiver child
+takes the tile and the robot moves to a waiting location until the next run
+starts.
+
+
+\subsubsection{Participants}
+
+Overall, there were 13 pairs of children (n=26) participating in the interaction
+study: 16 boys and 10 girls, 4-5 years old (M=4.46, SD=0.45). In 11 of the
+pairs, children were friends who knew each other from kindergarten, nursery
+school or because they lived in the same neighborhood. 2 of the pairs were
+composed of brother and sister.
+
+
+
+\subsection{Data collection}
+\subsubsection{Action coding}
+
+We annotated children's behavior in the video records, and coded 10 different
+actions:
+
+\begin{itemize}
+
+    \item \textbf{Explore (ex)}: when children actively try to find out what the
+        robot is doing (\eg by looking under the box); attentively watch or
+        observe the robot (\eg attentively waiting for the box to show a
+        reaction); experiment with the robot to figure out how it works (\eg put
+        hands in front or inside of the box to see what happens);
+
+    \item \textbf{Misuse (mis)}: when children kick the robot, poke it in its
+        ``eye'', try to climb on or inside the box, drive / push the robot
+        around, stop the robot's wheels with a foot;
+
+    \item \textbf{Put domino (put)}: when a domino tile is put inside the box;
+
+    \item \textbf{Remove domino (rem)}: when a domino tile is removed from the
+        box;
+
+    \item \textbf{Gesture (ges)}: when gestures are used to communicate /
+        interact with the robot (\eg pointing gestures, waving at the robot);
+
+    \item \textbf{Touch (touch)}: when the box is touched (\eg petted or
+        caressed);
+
+    \item \textbf{Show (show)}: when a child shows something to the robot (\eg
+        by holding a domino tile in front of its eyes);
+
+    \item \textbf{Call (call)}: when a child calls the robot to come over;
+
+    \item \textbf{Talk (talk)}: when a child directly talks to the robot (using
+        direct speech) besides calling the robot;
+
+    \item \textbf{Look (look)}:	when a child looks at the experimenter due to
+        confusion caused by the robot; look is not coded when the experimenter
+        asks a question to the child;
+
+\end{itemize}
+
+In total, we obtained 2354 distinct actions which summed up to a total
+annotation duration of 145 minutes. On average, one child accounted for 92
+actions (SD=23).
+
+The actions \textit{put, remove} and \textit{call} were ``requested'' actions
+because the scenario required them and children were asked to carry them out.
+Hence, these actions are not relevant to be analyzed quantitatively. The other
+actions \textit{explore, misuse, gesture, touch, show, talk} and \textit{look}
+are spontaneous actions that were not requested but arose in the interaction.
+These actions reflect engagement, and are the only one we considered during the
+analysis (except otherwise indicated).
+
+\subsubsection{Semi-structured interviews}
+
+\paragraph{Anthropomorphism index}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Findings}
+
+\subsection{General considerations}
+
+\subsubsection{Engagement}
+
+\subsubsection{Attribution of higher cognitive skills}
+\paragraph{Intentionality}
+\paragraph{Emotions}
+
+\subsubsection{Manipulation check: Negligable impact of the conditions}
+
+\subsection{Inter-subject and inter-group differences}
+
+\subsection{Anthropomorphic projections and social engagement}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lessons Learned and Future Directions}
+
+\begin{itemize}
+\item It’s a challenge to interview young children ... 
+\item Huge differences between the children and groups make it hard to draw general conclusions
+\item Children did not perceive the 3 different conditions as we did not perceive the 3 different conditions as we expected
+\item Coding scheme: “explore” category was not well defined
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Acknowledgments}
+
+This research was supported by the Swiss National Science Foundation through the
+National Centre of Competence in Research Robotics.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{abbrv}
+\bibliography{domino}
+
+\balancecolumns
+
+\end{document}
