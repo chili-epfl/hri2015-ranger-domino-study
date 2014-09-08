@@ -7,7 +7,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \graphicspath{{figures/}}
-\usepackage{multirow}
+
+\usepackage{booktabs}
 
 \newcommand{\eg}{{\textit{e.g.~}}}
 \newcommand{\etal}{{\textit{et al.~}}}
@@ -393,7 +394,16 @@ composed of brother and sister.
 
 
 \subsection{Data collection}
-\subsubsection{Action coding}
+
+
+We have obtained and analysed two types of data. The \textbf{children's
+behaviours toward the robot} (\ie the child-robot interactions) have been
+captured in the video recordings by annotating a set of actions, described
+below. The children's \textbf{perception of the
+robot} has been captured through audio-recorded semi-structured interviews. 
+
+
+\subsubsection{Interaction: Action coding}
 
 We annotated children's behavior in the video records, and coded 10 different
 actions:
@@ -437,7 +447,23 @@ actions:
 
 In total, we obtained 2354 distinct actions which summed up to a total
 annotation duration of 145 minutes. On average, one child accounted for 92
-actions (SD=23).
+actions (SD=23). Figure~\ref{fig:domino-time-all} shows the distribution of
+actions over the different runs, in any condition.
+
+\begin{figure*}[ht!] 
+    \centering 
+    \includegraphics[width=0.8\linewidth]{domino-time-all.pdf} 
+    \caption{\small \textbf{Number and type of actions for each run} (average for
+    one child per minute). Generally, the number of actions does not decrease over
+    time (from run 1.1 to run 2.9). The first 7 runs correspond to the
+    \textit{expected phase}, the second 7 runs correspond to the \textit{unexpected
+    phase}. Especially during run 2.3, the first time when the robot showed an
+    unexpected behavior, children tended to \textit{look} more at the experimenter.
+    During the unexpected phase, also \textit{talk} and \textit{gesture} seem to be
+    increased.}
+
+    \label{fig:domino-time-all} 
+\end{figure*}
 
 The actions \textit{put, remove} and \textit{call} were ``requested'' actions
 because the scenario required them and children were asked to carry them out.
@@ -447,9 +473,255 @@ are spontaneous actions that were not requested but arose in the interaction.
 These actions reflect engagement, and are the only one we considered during the
 analysis (except otherwise indicated).
 
-\subsubsection{Semi-structured interviews}
+\subsubsection{Perception: semi-structured interviews}
 
-\paragraph{Anthropomorphism index}
+
+It is not easy to interview young children: they have a short attention span, we
+(the experimenters) are strangers to them, and they are in an unfamiliar
+environment. The pre-interview served to ``break the ice'' and during the first
+playful interaction phase, most children familiarized themselves with the
+situation.
+
+Also, children do not articulate themselves and understand questions like
+adults. We tested our interview structure and the script in a pilot-study with
+three young children, and were assisted in formulating our questions by a
+pedagogue and father of four. This helped us adapting our language and
+question-style to the 4-5 year old participants. We set up the interviews like a
+casual conversation / discussion, so we did not separate the two children in
+order to keep the situation natural. We used casual and informal language
+adapted to the age of the children, and encouraged them to justify their answers
+and tell us more details by asking, for example, \textit{How do you know ... ?}
+or \textit{Tell me, what have you observed when ... ?}. We paid attention to not
+``put words in children's mouth''. Consequently, though we re-phrased and
+repeated some questions, we never forced children to give an answer, and
+accepted when they said they would not know or when they did not respond at all.	
+
+\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{p{0.9\linewidth}}
+    \toprule
+    \textbf{Construct \emph{expectation}} \\
+    \midrule
+
+    \emph{How do you imagine a robot?} \\
+    \emph{What could it look like?} \\
+    \emph{Have you ever seen a robot before?} \\
+
+    %%
+    \toprule
+    \textbf{Construct \emph{impression}} \\
+    \midrule
+
+
+    \emph{When you first saw R, what did you think?} \\
+    \emph{Is R a robot? How do you know?} \\
+    \emph{Did you expect R would come over to you when you call it?} \\
+    \emph{What happened when you put the domino tile in the box?} \\
+
+    %%
+    \toprule
+    \textbf{Ascribe intention} \\
+    \midrule
+
+
+    \emph{Do you think R could go out the door all by itself?} \\	
+    \emph{Does R always obey / come over to you?} \\
+    \emph{Could R do something silly?} \\
+    \emph{Why did R not come over to you when you called it?} \\
+
+    %%
+    \toprule
+    \textbf{Ascribe cognitive abilities} \\
+    \midrule
+
+
+    \emph{Here is a domino tile. Do you think R can see it?} \\ 
+    \emph{When I say \textit{``Hello R!''}, do you think R can hear it?} \\
+
+    %%
+    \toprule
+    \textbf{Ascribe emotional state} \\
+    \midrule
+
+
+    \emph{Does R have feelings? Can R be happy or sad sometimes?} \\
+
+    %%
+    \toprule
+    \textbf{Social acceptance} \\
+    \midrule
+
+
+    \emph{Do you like R? Why (not)?} \\
+    \emph{What do you (not) like about it?} \\
+    \emph{Would you like to have R at home?} \\
+
+    %%
+    \toprule
+    \textbf{Companionship} \\
+    \midrule
+
+
+    \emph{Could R be your friend? Why (not)?}\\
+
+    %%
+    \toprule
+    \textbf{Ascribe moral standing} \\
+    \midrule
+
+
+    \emph{Assume you go on a holiday for two weeks. Is it alright to leave R
+    alone at home? Why (not)?} \\
+
+    \bottomrule
+
+\end{tabular}
+
+    \caption{\small Questions used during the semi-structured interviews
+    with children. The Ranger robot toy box is abbreviated with ``R''.}
+
+    \label{tab:domino-questions} 
+
+\end{table}
+
+We generally needed to keep the interviews as short as possible. In designing
+our interview script and selecting relevant questions, we took inspiration from
+previous work on child-robot interaction and children's perception of robots
+\cite{kahn_jr._robotic_2006,weiss_i_2009,leite_influence_2013}. For instance, we
+applied and adapted some of the ``constructs'' and example questions from the
+questionnaires used in \cite{kahn_jr._robotic_2006} and \cite{weiss_i_2009}. The
+authors evaluated children's perception of the robotic dog AIBO after the
+children had played with the robot. A ``construct'' addresses a specific factor
+(topic) that can be measured by several questions. For instance, the construct
+``cognitive abilities'' (called ``cognition'' in \cite{weiss_i_2009}) considers
+the robot's ability to hear and to see (perceptual skills), as attributed by the
+children. The construct ``moral standing'' and the respective question was taken
+from \cite{kahn_jr._robotic_2006}.\footnote{According to
+\cite{kahn_jr._robotic_2006}, \textit{moral} refers to considerations based on
+an artifact's physical or psychological welfare, and virtue (whether the
+artifact deserves care). An attribution of moral standing reflects, for
+instance, that the robot engenders moral regard, is morally responsible,
+blameworthy, has rights or deserves respect.}			Similarly, we grouped
+questions according to specific constructs that they evaluate (see
+Table~\ref{tab:domino-questions}). This was an adaption and extension of the
+questions and constructs used in previous work.\\
+
+With several recurring questions in the first and second interview, we wanted to
+see the differences in children's perception of the correctly behaving and
+unexpectedly behaving robot. We planned to use these two interviews as a
+within-subject measurement, however, this did not work out very well because
+children's responses were not always accurate, not comparable one by one, and
+children did not always give an answer.	
+
+
+%	Even when children reply that they do not know, this is interesting. Then we either do not ask a good question or they are really uncertain about it.
+
+
+Similar to how we processed interviews in the previous studies, we qualitatively
+transcribed interviews, \ie we did not craft a full word-by-word transcript but
+noted down any statement that was useful and relevant. This was organized in a
+spreadsheet, so to obtain an overview of the different replies to a question.
+The interviews were analyzed in a qualitative manner.	
+
+
+
+
+\subsubsection{Engagement and anthropomorphism index}
+
+we can investigate how far these two types of data can
+be used to understand children's engagement in the interaction and how far they
+anthropomorphize the robot. We would like to develop a toolkit that considers
+both children's perception and interaction, in order to measure anthropomorphism
+(as a special type of human-like engagement with the robot).	
+
+
+There are different possibilities to measure engagement in HRI, depending on the
+specific research question and context. Metrics to measure behavioral engagement
+in the interaction include, for instance, conversation analysis (\eg used in
+\cite{short_no_2010}) or general attention analysis. These can be studied by
+analyzing interaction videos in terms of head movement, eye tracking and gesture
+/ body movement analysis (\eg in \cite{sidner_explorations_2005}).
+Post-measurements to measure emotional engagement can be questionnaires that try
+to assess constructs like the perceived presence and involvement in the
+interaction. An example is the \textit{Interactive Experience Questionnaire}
+(originally developed by \cite{lombard_measuring_2000}) of which adapted
+versions were used in
+\cite{kidd_effect_2004,bainbridge_effect_2008,short_no_2010}.
+
+A mix of several methods has been used in a long-term interaction study with 8-9
+year old children, \cite{leite_long-term_2013}. The author measured engagement
+through video observations (by analyzing the amount of time that children spent
+looking at the robot), interviews, and questionnaires. The interviews were
+semi-structured, containing initial yes-or-no questions followed by open-ended
+questions that allowed children to justify and elaborate their answers. We have
+chosen a similar approach that considers both children's behavioral and
+emotional engagement.
+
+With 4-5 year old children, however, we cannot use rating scales to ask them
+about constructs as abstract as social presence or how much they felt involved
+in the interaction. Therefore we have attempted to combine \emph{interaction}
+data with the results of the semi-structured interviews.  Several of the
+aforementioned coded actions can reflect engagement: \textit{explore, misuse,
+gesture, touch, show,} and \textit{talk}. Also, \textit{look} at the
+experimenter can be considered as engagement in the interaction: We assume that
+children look at the experimenter when they are surprised and seek for help.
+This behavior reflects that they want to make sense of the robot's behavior and
+that they notice it as ``strange''. Further, we can take into account how they
+refer to Ranger and describe the robot (as well as their experience) in the
+interviews.  Specifically, we used the constructs \textit{ascribe intention,
+    ascribe cognitive abilities, ascribe emotional state}, and \textit{ascribe
+    moral standing} (Table~\ref{tab:domino-questions}) to assess how far they
+    anthropomorphize the robot.
+
+To account for the fact that anthropomorphism arises in an interaction, we try
+to bring both children's perception of the robot (post-measurement) and their
+behavior toward it (in-the-moment measurement) together. By doing so, we would
+like to obtain a qualitative \textbf{anthropomorphism
+index}~\cite{fink2014dynamics}. We quantify the index by giving 1 point for each
+anthropomorphic perception of the robot (max.  13 points) and for specific kinds
+of human-like behavior toward the robot (max.  3 points). The index included the
+following aspects:\\
+
+\textbf{Perception: \textit{(max. 13 points)}}
+\begin{itemize}
+	\item Ascribe \textbf{mental states / feelings} to Ranger: \textit{0-4 points}\\
+	(2 points for agreeing that Ranger can be happy or sad; 2 points for attributing Ranger with hunger or tiredness)
+	\item Ascribe \textbf{cognitive abilities / intention} to Ranger: \textit{0-4 points}\\ 
+	(each 0.5 points for ascribing seeing and hearing ability; 1 point for agreeing that Ranger can go out the door by itself; 1 point for disagreeing that Ranger always obeys; 1 point for agreeing that Ranger can do something silly)
+	\item Ascribe \textbf{sociality / companionship} to Ranger: \textit{1 point}\\ 
+	(1 point for agreeing that Ranger can be a friend)
+	\item Ascribe \textbf{moral standing} to Ranger: \textit{1 point}\\ (1 point for disagreeing that Ranger be left alone at home)
+	\item Other \textbf{anthropomorphic statements}: \textit{0-3 points}\\ 
+	(1 point for anthropomorphic reason for Ranger's misbehavior; 2 points for anthropomorphic reason for not leaving Ranger alone) 
+\end{itemize}
+
+\textbf{Behavior: \textit{(max. 3 points)}}
+\begin{itemize}
+	\item Use of \textbf{direct speech} toward Ranger: \textit{1 point}\\
+	(\textit{calling} the robot to come over is not considered)
+	\item Use of \textbf{polite formulations} toward Ranger: \textit{1 point}\\ 
+	(\eg saying \textit{``thank you Ranger''} or \textit{``please Ranger ...''} or \textit{``goodbye''})
+	\item Use of \textbf{social or pointing gestures} toward Ranger: \textit{1 point}\\ 
+	(\eg waving at the robot, nodding)
+\end{itemize}
+
+There are certainly limitations to this scoring scheme. For instance, the
+balance between perception and behavior aspects is questionable (13 to 3
+points). Also, we did not consistently assign 1 point to each item, but assigned
+points between 0.5 and 2 points. We did this because we found that different
+items reflect a higher level of anthropomorphic perception of the robot than
+others (for instance, ascribing the ability to see an hear was suggested by our
+study setup, and we cannot be sure that it really reflects anthropomorphism).
+There are possibilities of refinement of this scoring scheme. For instance, a
+more systematic weighting procedure and the identification of all relevant
+factors would be an interesting future achievement. We could introduce a formula
+to calculate the anthropomorphism index \textit{$\alpha$} by taking the sum of
+the various items ($x_1, x_2, x_3...$) and different weights ($a, b, c ...$) to
+balance them: $\alpha$ \textit{=} $a x_1$ \textit{+} $b x_2$ \textit{+} $c x_3
+...$~. Machine learning techniques could be used to optimize such a calculation
+of the anthropomorphism index.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -464,7 +736,39 @@ analysis (except otherwise indicated).
 \paragraph{Intentionality}
 \paragraph{Emotions}
 
-\subsubsection{Manipulation check: Negligable impact of the conditions}
+\paragraph{Moral standing}
+
+Inspired from the questionnaire used by \cite{kahn_jr._robotic_2006}, we asked
+children if it would be alright to leave Ranger alone at home (\eg during two
+weeks when they go on a vacation) (Figure~\ref{fig:domino-leave-alone}). The great
+majority of 20 children responded negatively. Asked why, children gave a variety
+of answers that we classified into 7 categories. With 5 replies, the most common answer was
+that the robot ``could do something silly'' (\emph{``faire une bêtise''}). Some
+other children simply answered they would like to take it with them. Others
+were afraid that the Ranger ``would not find its way'' or ``may be taken
+away by someone''. 2 children believed Ranger is sad when left alone and 1
+child responded the robot would try to escape. Interestingly, and while we
+intuitively expected many children to fear that the robot would be sad if
+left alone, only 2 expressed a moral position, while most of the others
+actually expressed several forms of distrust towards the robot: \emph{it's
+not alright to leave the robot alone, not because it is morally incorrect,
+but because we do not trust the robot to remain still}. This shows that things
+must be put into perspective and even young children do not consider our robot
+as an intentional agent, not to say a social agent.
+
+\begin{figure}[!h]
+    \centering 
+    \includegraphics[width=0.9\linewidth]{domino-leave-why.pdf}
+    \caption{\small Attributions of moral
+        standing: we asked children whether it was alright to leave Ranger
+        alone at home if they go on a 2-week vacation. Multiple answers
+        (open-ended) were allowed when asked to justify their answer.}
+
+    \label{fig:domino-leave-alone} 
+\end{figure}		
+
+
+\subsection{Manipulation check: Negligable impact of the conditions}
 
 \subsection{Inter-subject and inter-group differences}
 
