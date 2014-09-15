@@ -12,8 +12,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48+devel r"
-   width="778.78656"
-   height="386.15561"
+   width="727.38232"
+   height="417.76666"
    xml:space="preserve"
    sodipodi:docname="domino-leave-why.svg"><metadata
      id="metadata8"><rdf:RDF><cc:Work
@@ -357,13 +357,13 @@
      inkscape:window-height="838"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.64870016"
-     inkscape:cx="492.26615"
-     inkscape:cy="316.44804"
+     inkscape:zoom="0.91740056"
+     inkscape:cx="316.36763"
+     inkscape:cy="224.67163"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g7141"
+     inkscape:current-layer="g10"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -371,22 +371,16 @@
      id="g10"
      inkscape:groupmode="layer"
      inkscape:label="domino-leave-why"
-     transform="matrix(1.25,0,0,-1.25,350.69875,366.42928)"><g
+     transform="matrix(1.25,0,0,-1.25,347.50044,398.04033)"><g
        id="g12" /><g
        id="g7141"
-       transform="translate(-20.8,0)"><g
-         transform="translate(0,-1.394579)"
-         id="g36"><g
-           clip-path="url(#clipPath40)"
-           id="g38"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,183.5436,264)"
-             id="g44"><path
-               id="path46"
-               style="fill:none;stroke:#989898;stroke-width:12700;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="m 422356,5079.81 0,2917361.19 M 854156,5079.81 854156,2922441 M 1285956,5079.81 l 0,2917361.19 M 1717756,5079.81 l 0,2917361.19 M 2136856,5079.81 l 0,2917361.19"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cccccccccc" /></g></g></g><g
-         transform="translate(0,-1.394579)"
+       transform="translate(-20.8,0)"><path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 184.79998,262.20543 0,-229.713482 m 34,229.713482 0,-229.713482 m 34,229.713482 0,-229.713482 m 34,229.713482 0,-229.713482 m 33,229.713482 0,-229.713482"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path46" /><g
+         transform="translate(-32,-1.394579)"
          id="g48"><g
            clip-path="url(#clipPath52)"
            id="g50"><path
@@ -394,7 +388,7 @@
              style="fill:#faa757;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 284.8,45.59997 -101,0 0,15 101,0 0,-15 z m -34,38 -67,0 0,15 67,0 0,-15 z m -34,77.00003 -33,0 0,15 33,0 0,-15 z m 0,38 -33,0 0,16 33,0 0,-16 z"
              inkscape:connector-curvature="0" /></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g58"><g
            clip-path="url(#clipPath62)"
            id="g60"><path
@@ -402,36 +396,24 @@
              style="fill:#6095c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 318.8,45.59997 -34,0 0,15 34,0 0,-15 z m 33,38 -101,0 0,15 101,0 0,-15 z m -101,38.00003 -67,0 0,16 67,0 0,-16 z m -34,116 -33,0 0,15 33,0 0,-15 z"
              inkscape:connector-curvature="0" /></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g68"><g
            clip-path="url(#clipPath72)"
            id="g70"><path
              id="path76"
              style="fill:#cd665f;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 351.8,45.59997 -33,0 0,15 33,0 0,-15 z m -67,76.00003 -34,0 0,16 34,0 0,-16 z m -34,39 -34,0 0,15 34,0 0,-15 z m 0,38 -34,0 0,16 34,0 0,-16 z"
-             inkscape:connector-curvature="0" /></g></g><g
-         transform="translate(0,-1.394579)"
-         id="g78"><g
-           clip-path="url(#clipPath82)"
-           id="g80"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,183.5436,33.88651)"
-             id="g86"><path
-               id="path88"
-               style="fill:none;stroke:#989898;stroke-width:12700;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="M -0.02026367,-0.0213623 2199156.2,0.9960175"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" /></g></g></g><g
-         transform="translate(0,-1.394579)"
-         id="g90"><g
-           clip-path="url(#clipPath94)"
-           id="g92"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,183.5436,264)"
-             id="g98"><path
-               id="path100"
-               style="fill:none;stroke:#989898;stroke-width:12700;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="M -0.02026367,2922441 0.9486694,-0.1124268"
-               inkscape:connector-curvature="0" /></g></g></g><g
-         transform="translate(0,-1.394579)"
+             inkscape:connector-curvature="0" /></g></g><path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         d="m 151.5436,32.491933 173.16191,-8e-5"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path88" /><path
+         inkscape:connector-curvature="0"
+         d="m 151.5436,32.491948 7e-5,230.113482"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path100" /><g
+         transform="translate(-32,-1.394579)"
          id="g102"><g
            clip-path="url(#clipPath106)"
            id="g104"><g
@@ -445,7 +427,7 @@
                  y="0"
                  x="0">3 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g116"><g
            clip-path="url(#clipPath120)"
            id="g118"><g
@@ -459,7 +441,7 @@
                  y="0"
                  x="0">2 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g130"><g
            clip-path="url(#clipPath134)"
            id="g132"><g
@@ -473,7 +455,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g144"><g
            clip-path="url(#clipPath148)"
            id="g146"><g
@@ -487,7 +469,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g158"><g
            clip-path="url(#clipPath162)"
            id="g160"><g
@@ -501,7 +483,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g172"><g
            clip-path="url(#clipPath176)"
            id="g174"><g
@@ -515,7 +497,7 @@
                  y="0"
                  x="0">3 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g186"><g
            clip-path="url(#clipPath190)"
            id="g188"><g
@@ -529,7 +511,7 @@
                  y="0"
                  x="0">2 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g200"><g
            clip-path="url(#clipPath204)"
            id="g202"><g
@@ -543,7 +525,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g214"><g
            clip-path="url(#clipPath218)"
            id="g216"><g
@@ -557,7 +539,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g228"><g
            clip-path="url(#clipPath232)"
            id="g230"><g
@@ -571,7 +553,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g242"><g
            clip-path="url(#clipPath246)"
            id="g244"><g
@@ -585,7 +567,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g256"><g
            clip-path="url(#clipPath260)"
            id="g258"><g
@@ -599,7 +581,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g270"><g
            clip-path="url(#clipPath274)"
            id="g272"><g
@@ -613,7 +595,7 @@
                  y="0"
                  x="0">0 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g284"><g
            clip-path="url(#clipPath288)"
            id="g286"><g
@@ -627,7 +609,7 @@
                  y="0"
                  x="0">1 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g298"><g
            clip-path="url(#clipPath302)"
            id="g300"><g
@@ -641,7 +623,7 @@
                  y="0"
                  x="0">2 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g312"><g
            clip-path="url(#clipPath316)"
            id="g314"><g
@@ -655,7 +637,7 @@
                  y="0"
                  x="0">3 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g326"><g
            clip-path="url(#clipPath330)"
            id="g328"><g
@@ -669,7 +651,7 @@
                  y="0"
                  x="0">4 </tspan></text>
 </g></g></g><g
-         transform="translate(0,-1.394579)"
+         transform="translate(-32,-1.394579)"
          id="g340"><g
            clip-path="url(#clipPath344)"
            id="g342"><g
@@ -683,7 +665,7 @@
                  y="0"
                  x="0">5 </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g368"><g
            clip-path="url(#clipPath372)"
            id="g370"><g
@@ -697,7 +679,7 @@
                  y="0"
                  x="0">could do something silly </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g382"><g
            clip-path="url(#clipPath386)"
            id="g384"><g
@@ -711,7 +693,7 @@
                  y="0"
                  x="0">it would go no matter where </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g396"><g
            clip-path="url(#clipPath400)"
            id="g398"><g
@@ -725,7 +707,7 @@
                  y="0"
                  x="0">I prefer taking it with me </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g410"><g
            clip-path="url(#clipPath414)"
            id="g412"><g
@@ -739,7 +721,7 @@
                  y="0"
                  x="0">someone could take it </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g424"><g
            clip-path="url(#clipPath428)"
            id="g426"><g
@@ -753,7 +735,7 @@
                  y="0"
                  x="0">it would be sad </tspan></text>
 </g></g></g><g
-         transform="translate(8,-1.394579)"
+         transform="translate(-24,-1.394579)"
          id="g438"><g
            clip-path="url(#clipPath442)"
            id="g440"><g
@@ -766,21 +748,26 @@
                  sodipodi:role="line"
                  y="0"
                  x="0">it would try to escape </tspan></text>
-</g></g></g></g><g
-       id="g452"
-       transform="translate(-60.8,-1.394579)"><g
-         id="g454"
-         clip-path="url(#clipPath456)"><g
-           id="g460"
-           transform="translate(51.22031,300.1)"><text
-             transform="matrix(1,0,0,-1,34.55949,-18)"
-             style="font-size:18px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L-Bold"
-             id="text462"><tspan
-               x="0"
-               y="0"
-               sodipodi:role="line"
-               id="tspan464">Why is not alright to leave Ranger alone?</tspan></text>
-</g></g></g><g
+</g></g></g><path
+         id="path4484"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         d="m 151.5436,262.3471 173.16191,-8e-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" /></g><text
+       id="text462"
+       style="font-size:18px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L-Bold"
+       transform="scale(1,-1)"
+       x="88.030975"
+       y="-305.99426"><tspan
+         id="tspan464"
+         sodipodi:role="line"
+         y="-305.99426"
+         x="88.030975">Why is not alright </tspan><tspan
+         sodipodi:role="line"
+         y="-283.49426"
+         x="88.030975"
+         id="tspan4504">to leave Ranger alone?</tspan></text>
+<g
        id="g7538"
        transform="translate(-3.0830885,28.981032)"><g
          transform="translate(-494.60984,-202.4693)"
@@ -850,49 +837,19 @@
                  x="0">disobey </tspan></text>
 </g></g></g></g><g
        id="g538" /><g
-       id="g7292"><g
-         clip-path="none"
-         id="g26-7"
-         transform="translate(-286.2204,1.661461)"><g
-           clip-path="url(#clipPath30-0)"
-           id="g28-4"><path
-             inkscape:connector-curvature="0"
-             id="path34-7"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
-             d="m 34.97717,263.4001 238.84633,0 0,-229.71359 -238.84633,0 0,229.71359 z" /></g></g><g
-         clip-path="none"
-         id="g36-0"
-         transform="matrix(0.77562961,0,0,1,-278.41231,1.661461)"><g
-           clip-path="url(#clipPath40-5)"
-           id="g38-8"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,34.97717,263.4001)"
-             id="g44-5"><path
-               inkscape:connector-curvature="0"
-               id="path46-3"
-               style="fill:none;stroke:#989898;stroke-width:14420.37402344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="m -2250.007,2336801 3035300.007,0 M -2250.007,1752601 3033050,1752601 M -2250.007,1168401 3033050,1168401 M -2250.007,584201 3033050,584201 M -2250.007,1.215088 l 3035300.007,0" /></g></g></g><g
-         clip-path="none"
-         id="g78-9"
-         transform="translate(-286.2204,1.661461)"><g
-           clip-path="url(#clipPath82-6)"
-           id="g80-5"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,34.97717,263.4001)"
-             id="g86-0"><path
-               inkscape:connector-curvature="0"
-               id="path88-5"
-               style="fill:none;stroke:#989898;stroke-width:12700;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="M 0.00146484,2917362 1.018845,0.05236816" /></g></g></g><g
-         clip-path="none"
-         id="g90-6"
-         transform="matrix(0.77562961,0,0,1,-278.41231,1.661461)"><g
-           clip-path="url(#clipPath94-2)"
-           id="g92-1"><g
-             transform="matrix(7.874016e-5,0,0,-7.874016e-5,34.97717,33.68649)"
-             id="g98-7"><path
-               inkscape:connector-curvature="0"
-               id="path100-3"
-               style="fill:none;stroke:#989898;stroke-width:14420.37402344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-               d="M 0.00146484,0.00866699 3033348,1.026047" /></g></g></g><g
+       id="g7292"><path
+         d="m -251.4204,81.061475 185.375489,0 m -185.375489,46.000005 185.375489,0 m -185.375489,46 185.375489,0 m -185.375489,46 185.375489,0 m -185.375489,45.99998 185.375489,0"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path46-3"
+         inkscape:connector-curvature="0" /><path
+         d="m -251.24323,35.348009 8e-5,229.713551"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path88-5"
+         inkscape:connector-curvature="0" /><path
+         d="m -251.28298,35.34795 185.256269,-8e-5"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path100-3"
+         inkscape:connector-curvature="0" /><g
          clip-path="none"
          id="g200-4"
          transform="translate(-286.2204,1.661461)"><g
@@ -1166,19 +1123,22 @@
                    y="0"
                    sodipodi:role="line"
                    id="tspan324-8">don't know</tspan></text>
-</g></g></g></g></g><g
-       id="g326-0"
-       transform="translate(-335.8204,-1.194579)"
-       clip-path="none"><g
-         id="g328-7"
-         clip-path="url(#clipPath330-7)"><g
-           id="g334-1"
-           transform="translate(39.79015,299.9)"><text
-             transform="matrix(1,0,0,-1,15.11125,-18)"
-             style="font-size:18px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L-Bold"
-             id="text336-6"><tspan
-               x="0"
-               y="0"
-               sodipodi:role="line"
-               id="tspan338-5">Is it alright to leave Ranger alone?</tspan></text>
-</g></g></g></g></svg>
+</g></g></g></g><path
+         inkscape:connector-curvature="0"
+         id="path4464"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         d="m -66.334999,35.348009 8e-5,229.713551" /></g><text
+       id="text336-6"
+       style="font-size:18px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L-Bold"
+       transform="scale(1,-1)"
+       x="-241.6777"
+       y="-305.99426"><tspan
+         id="tspan338-5"
+         sodipodi:role="line"
+         y="-305.99426"
+         x="-241.6777">Is it alright</tspan><tspan
+         sodipodi:role="line"
+         y="-283.49426"
+         x="-241.6777"
+         id="tspan4506">to leave Ranger alone?</tspan></text>
+</g></svg>
