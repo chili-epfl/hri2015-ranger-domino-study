@@ -50,10 +50,27 @@ How Children Perceive and Interact with a Robot that Behaves Unexpectedly -- The
 \maketitle
 \begin{abstract}
 
+Presented is a study on the impact of unexpected robot behaviours on the
+perception of a robot by children and their subsequent engagement in a playful interaction.
+We propose an original analysis methodology which blends behavioural cues and
+reported phenomenological perceptions into a compound \emph{index}.
+
+While we found only a limited recognition of the different misbehaviours of the
+robot that we attribute to the age of the subject (M=4.46), interesting findings
+include a sustained engagement level, an unexpectedly low level of attribution
+of higher cognitive abilities and a \emph{negative} correlation between
+anthropomorphic projections and actual behavioural engagement.
+
+Besides, this study operationalizes for the first time the
+\emph{anthropomorphism index} proposed by~\cite{fink2014dynamics}, which proves a
+valuable tool to assess qualitative psycho-behavioural episodes occurring during
+human-robot interaction.
+
 \end{abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introduction: Towards Sustained Engagement}
+\section{Introduction}
+\subsection{Towards Sustained Engagement}
 
 \textbf{Engagement} is a metric that has been extensively used and studied both
 in HRI and during interactions with other agent-like systems. It has been
@@ -218,7 +235,6 @@ Consequently, we formulate a third hypotesis:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Scenario and Research Methodology}
 
-\subsection{The Ranger robot}
 
 \subsection{The Domino scenario}
 
@@ -280,6 +296,8 @@ goes back to the receiver child in the tent. Then, the receiver takes out the
 domino tile from the robot, and puts the two tiles together. The first
 \emph{run} is over, and a new \emph{run} starts, when the receiver asks the
 searcher for the next domino tile.
+
+\subsubsection{The Ranger robot}
 
 \subsubsection{Course of the study}
 
@@ -418,6 +436,22 @@ between run \emph{1.5} and \emph{2.1} and at the end of the 14 runs.
 
 \subsubsection{Interaction: Action coding}
 
+\begin{figure*}[ht!] 
+    \centering 
+    \includegraphics[width=0.9\linewidth]{domino-time-active.pdf} 
+    \caption{\small \textbf{Number and type of actions for each run} (n=480,
+        spontaneous actions, excluding \emph{explore}). Generally, the number of
+        actions does not decrease over time (from run 1.1 to run 2.9).  The
+        first 7 runs correspond to the \textit{expected phase}, the second 7
+        runs correspond to the \textit{unexpected phase}. Especially during run
+        2.3, the first time when the robot showed an unexpected behaviour,
+        children tended to \textit{look} more at the experimenter. During the
+        unexpected phase, also \textit{talk} and \textit{gesture} seem to be
+        increased.}
+
+    \label{fig:domino-time-active} 
+\end{figure*}
+
 We annotated children's behaviour in the video records, and coded 10 different
 actions:
 
@@ -462,22 +496,6 @@ In total, we obtained 2354 distinct actions which summed up to a total
 annotation duration of 145 minutes. On average, one child accounted for 92
 actions (SD=23).
 
-\begin{figure*}[ht!] 
-    \centering 
-    \includegraphics[width=0.9\linewidth]{domino-time-active.pdf} 
-    \caption{\small \textbf{Number and type of actions for each run} (n=480,
-        spontaneous actions, excluding \emph{explore}). Generally, the number of
-        actions does not decrease over time (from run 1.1 to run 2.9).  The
-        first 7 runs correspond to the \textit{expected phase}, the second 7
-        runs correspond to the \textit{unexpected phase}. Especially during run
-        2.3, the first time when the robot showed an unexpected behaviour,
-        children tended to \textit{look} more at the experimenter. During the
-        unexpected phase, also \textit{talk} and \textit{gesture} seem to be
-        increased.}
-
-    \label{fig:domino-time-active} 
-\end{figure*}
-
 The actions \textit{put, remove} and \textit{call} were ``requested'' actions
 because the scenario required them and children were asked to carry them out.
 Hence, these actions are not relevant to be analyzed quantitatively. The other
@@ -500,7 +518,7 @@ or \textit{Tell me, what have you observed when ... ?}. We paid attention to not
 repeated some questions, we never forced children to give an answer, and
 accepted when they said they would not know or when they did not respond at all.	
 
-\begin{table}[h]
+\begin{table}[h!t]
 \centering
 \footnotesize
 \begin{tabular}{p{0.9\linewidth}}
@@ -590,6 +608,7 @@ accepted when they said they would not know or when they did not respond at all.
     \label{tab:domino-questions} 
 
 \end{table}
+
 
 In designing our interview script and selecting relevant questions, we took
 inspiration from previous work on child-robot interaction and children's
