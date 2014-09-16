@@ -72,7 +72,7 @@ human-robot interaction.
 \section{Introduction}
 \subsection{Towards Sustained Engagement}
 
-\textbf{Engagement} is a metric that has been extensively used and studied both
+\emph{Engagement} is a metric that has been extensively used and studied both
 in HRI and during interactions with other agent-like systems. It has been
 defined from several perspectives. For example \cite{sidner_where_2004} define
 engagement as \textit{``the process by which two (or more) participants
@@ -158,6 +158,21 @@ in a between-subjects study design:
 
 \begin{itemize}
 
+    \item The robot gets \textbf{lost}: When called by the child to come over,
+        the robot goes wrong, without any observable reason, and remains at the
+        wrong location. We expect this to be perceived as a mechanical
+        malfunction (a bug or system error which causes the robot to not work
+        correctly), and hypothesize decreased attributions of human-likeness to
+        the robot.
+
+    \item The robot \textbf{disobey}: When called by the child to come over, the
+        robot shows it refuses to obey by literally ``shaking its head'' and
+        becoming red. The robot then goes to a wrong location and remains there
+        while it continues to shake its head. We expect the disobey behaviour to
+        be perceived as the robot having an explicit \textit{``own will''}, and
+        we assume this leads to increased attributions of human-likeness
+        (ascribing intentionality) to the robot.
+
     \item The robot makes a \textbf{mistake}: When called by the child to come
         over, the robot goes wrong but recognizes its mistake and repairs. We
         expect this to be perceived (explicitly) as \textit{``to err is
@@ -168,19 +183,6 @@ in a between-subjects study design:
             to a robot is hereafter labeled as \textit{anthropomorphic
         projections}.} 
 
-    \item The robot gets \textbf{lost}: When called by the child to come over,
-    the robot goes wrong, without any observable reason, and remains at the
-    wrong location. We expect this to be perceived as a bug or system error
-    which causes the robot to not work correctly, and hypothesize decreased
-    attributions of human-likeness to the robot.
-
-    \item The robot \textbf{disobey}: When called by the child to come over, the
-    robot shows it refuses to obey by literally ``shaking its head'' and
-    becoming red. The robot then goes to a wrong location and remains there
-    while it continues to shake its head. We expect the disobey behaviour to be
-    perceived as the robot having an \textit{``own will''}, and we assume this
-    leads to increased attributions of human-likeness (ascribing intentionality)
-    to the robot.
 
 \end{itemize}
 
@@ -270,13 +272,15 @@ distributed in the room, hidden behind three beanbags, and while one child --
 (play carpet) in between the two children that we told them they cannot cross
 and therefore they need the robot to transport the domino tiles between them.
 
-The robot was controlled by a human wizard, who was in the same room (see
-Figure~\ref{fig:domino-setup}). This was to ensure that the wizard could see
-children's interaction and hear their commands to the robot without any delay.
-Only one group asked at the beginning of the experiment if the wizard was the
-one actually controlling the robot. This did not seem to subsequently influence
-their behaviour.
-
+The Ranger~\cite{mondada2014ranger} is a wheeled box (27 x 37 x 37 cm) with
+partial wooden surface. Being remote controlled, it can move around a flat
+surface, move its eyes and eyebrows, display colors (LEDs) and light patterns,
+and play sounds through Bluetooth speakers.  The robot was controlled by a human
+wizard, who was in the same room (see Figure~\ref{fig:domino-setup}). This was
+to ensure that the wizard could see children's interaction and hear their
+commands to the robot without any delay.  Only one group asked at the beginning
+of the experiment if the wizard was the one actually controlling the robot. This
+did not seem to subsequently influence their behaviour.
 
 We used a self-made domino consisting of 10 wooden tiles (10~x~20~x~1.5~cm) with
 pictures of cartoon farm animals: cow, sheep, hen, donkey, duck, pig, rabbit.
@@ -297,16 +301,14 @@ domino tile from the robot, and puts the two tiles together. The first
 \emph{run} is over, and a new \emph{run} starts, when the receiver asks the
 searcher for the next domino tile.
 
-\subsubsection{The Ranger robot}
-
 \subsubsection{Course of the study}
 
 In our study, there were a total of 14 runs, and at each run, the robot exhibits
-one out of four possible behaviours: \emph{correct}, \emph{mistake}, \emph{lost}
-or \emph{disobey}.  The first 5 runs (\emph{1.1} to \emph{1.5}) were used to set
+one out of four possible behaviours: \emph{correct}, \emph{lost}
+\emph{disobey} or \emph{mistake}.  The first 5 runs (\emph{1.1} to \emph{1.5}) were used to set
 the baseline and the robot always behaved correctly. The children then switched
 the roles and in the 9 remaining runs (\emph{2.1} to \emph{2.9}), the robot
-showed one of the misbehaviour (\emph{mistake}, \emph{lost} or \emph{disobey})
+showed one of the misbehaviour (\emph{lost}, \emph{disobey} or \emph{mistake})
 at the $3^{rd}$ and $4^{th}$ run as well as at the $7^{th}$ and $8^{th}$ run
 (see Figure~\ref{fig:domino-time-active}). The study is build as a
 between-subject study, and the type of misbehaviour was therefore always the
@@ -330,10 +332,6 @@ was preserved.
 
 \begin{figure}[!t]
     \centering
-    \subfloat[mistake]{
-        \label{fig:domino-mistake}
-        \includegraphics[width=0.3\columnwidth]{domino-mistake.png}
-    }
     \subfloat[lost]{
         \label{fig:domino-lost}
         \includegraphics[width=0.4\columnwidth]{domino-lost.png}
@@ -341,6 +339,10 @@ was preserved.
     \subfloat[disobey]{
         \label{fig:domino-disobey}
         \includegraphics[width=0.3\columnwidth]{domino-disobey.png}
+    }
+    \subfloat[mistake]{
+        \label{fig:domino-mistake}
+        \includegraphics[width=0.3\columnwidth]{domino-mistake.png}
     }
     \caption{\small The three robot misbehaviours.}
     \label{fig:domino-misbehaviour}
@@ -370,17 +372,9 @@ following states:
 \end{itemize}
 
 During the misbehaving runs, the robot's behaviour is manipulated in three
-possible ways:
+possible ways (Figure~\ref{fig:domino-misbehaviour}):
 
 \begin{itemize}	
-
-    \item \textbf{Mistake:} The sender child calls Ranger. The robot goes until
-    it is on the carpet, stops, turns, and goes wrong (see yellow path in
-    Figure~\ref{fig:domino-setup}). Then, Ranger waits ($\sim$2~sec), turns its
-    ``face'' toward the sender child, and ``blushes'' red around its ``cheeks''
-    (as if it recognizes its wrong position) and finally goes correctly over to
-    the sender child. The \textit{mistake} behaviour is \textit{robot-repaired},
-    as no human-intervention is needed.
 
     \item \textbf{Lost:} After being called, Ranger goes until it is on the
     carpet. There, it stops, turns, and goes wrong (see blue path in
@@ -399,7 +393,15 @@ possible ways:
     toward the sender child. In addition to the red blinking, Ranger
     makes a slow wiggle-like move, and remains waiting at the wrong position
     until the experimenter tells the child to go over to the robot to put the
-    domino tile. The \textit{disobey} behaviour is also \textit{human-repaired}.	
+    domino tile. The \textit{disobey} behaviour is also \textit{human-repaired}.
+
+    \item \textbf{Mistake:} The sender child calls Ranger. The robot goes until
+    it is on the carpet, stops, turns, and goes wrong (see yellow path in
+    Figure~\ref{fig:domino-setup}). Then, Ranger waits ($\sim$2~sec), turns its
+    ``face'' toward the sender child, and ``blushes'' red around its ``cheeks''
+    (as if it recognizes its wrong position) and finally goes correctly over to
+    the sender child. The \textit{mistake} behaviour is \textit{robot-repaired},
+    as no human-intervention is needed.
 
 \end{itemize}
 
@@ -505,7 +507,7 @@ These actions reflect engagement, and are the one we considered during the
 analysis. Figure~\ref{fig:domino-time-active} shows the distribution of these
 actions over the different runs, in any condition.
 
-\subsubsection{Perception: semi-structured interviews}
+\subsubsection{Phenomenological perception: semi-structured interviews}
 
 One pre-interview and two interviews (between run \emph{1.5} and \emph{2.1} and
 at the end) were conducted with the children.  We set up the interviews like a
@@ -739,24 +741,25 @@ of the anthropomorphism index.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Main Findings}
 
-\subsection{Manipulation check: Negligible impact of the conditions}
+\subsection{Misbehaviour recognition and engagement}
 
 As stated in the introduction, we had hypothesized that the \textit{disobey}
 behaviour is perceived as the robot intentionally not doing what it should do.
 The \textit{mistake} behaviour was intended to show that the robot can do a
 mistake but is aware of it and able to repair its mistake, which should also
-lead to some perception of intentionality.  Contrary, we expected that the
+lead to the perception of intentionality and introspective skills.  Contrary, we expected that the
 \textit{lost} condition is perceived as a malfunction or bug of the robot.  In
 the second interview, after the robot had misbehaved, we asked children whether
 the robot always did what they wanted it to do. Most children disagreed and said
-they noticed something strange. However, there were some children who gave a
-positive answer, suggesting that they found the robot always did what they
-wanted it to do. This was a surprise. Had they not noticed the robot's
-misbehaviour? Why not? On one hand, we found that children sometimes gave
-contradictory replies when asked the same question twice. This is difficult to
-interpret. On the other hand, children may have a general tendency to please
-adults \cite{leite_long-term_2013}, and it could be the case that some were too
-shy to tell us that the robot did something strange.
+they noticed something strange.
+%However, there were some children who gave a
+%positive answer, suggesting that they found the robot always did what they
+%wanted it to do. This was a surprise. Had they not noticed the robot's
+%misbehaviour? Why not? On one hand, we found that children sometimes gave
+%contradictory replies when asked the same question twice. This is difficult to
+%interpret. On the other hand, children may have a general tendency to please
+%adults \cite{leite_long-term_2013}, and it could be the case that some were too
+%shy to tell us that the robot did something strange.
 
 \begin{figure}[!h]
     \centering
@@ -769,8 +772,8 @@ shy to tell us that the robot did something strange.
     \label{fig:domino-why-misbehaviour}
 \end{figure}	
 
-We nevertheless asked children why they thought the robot had not always come
-over to them. 4 of the children did not reply. The remaining ones gave a variety
+When asked why they thought the robot had not always come
+over to them, 4 of the children did not reply. The remaining ones gave a variety
 of reasons (Figure~\ref{fig:domino-why-misbehaviour}). The most common answer (9
 of 37 replies) was that the robot is somehow \textit{unpredictable} in what it
 is doing and that it could go \textit{no matter where}\footnote{We translated
@@ -779,7 +782,7 @@ and connotation of an expression may not be the same. We understand
 \textit{``partir dans tous les sens''} as ``to go off in all possible
 directions'' and hence interpret this reflects viewing the robot as being
 unpredictable.} because \textit{``with robots you have these kind of problems,
-they do no matter what''}. 8 replies concerned \textit{technical problems}
+they do no matter what''}. 8 replies related to \textit{technical problems}
 (including \textit{broken parts}), suggesting that children perceived the
 misbehaviour as unintended by the robot. 2 of the children who had interacted
 with the disobeying robot said Ranger was \textit{angry}, which none of the
@@ -799,18 +802,18 @@ rather than interpreting the robot's behaviour as a deliberative action.
 %	understood as a deliberative action of the robot, but rather as a
 %	mistake''}. 	
 
-In our case, it is not easy to make a clear statement about how each of the
-manipulations was perceived by the children.  Similar to how people reacted to
-the cheating robot in the study of \cite{short_no_2010}, most children showed
-surprise, were amused, sometimes confused, or occasionally slightly angry (\eg
-two boys tended to shout to the robot after it had disobeyed). The
-\textit{disobeying} robot seemed to evoke the strongest reactions, partly with a
-negative implication: later three of the children in this condition stated they
-would not accept Ranger as a friend \textit{because it did not always come over
-when they asked it to come over}. \cite{short_no_2010} described a similar
-implication of the robot cheating behaviour: participants made unfavorable
-character attributions to the cheating robot, so the robot's actions affected
-perceptions of the robot as ``fair'' and ``honest''.
+%In our case, it is not easy to make a clear statement about how each of the
+%manipulations was perceived by the children.  Similar to how people reacted to
+%the cheating robot in the study of \cite{short_no_2010}, most children showed
+%surprise, were amused, sometimes confused, or occasionally slightly angry (\eg
+%two boys tended to shout to the robot after it had disobeyed). The
+%\textit{disobeying} robot seemed to evoke the strongest reactions, partly with a
+%negative implication: later three of the children in this condition stated they
+%would not accept Ranger as a friend \textit{because it did not always come over
+%when they asked it to come over}. \cite{short_no_2010} described a similar
+%implication of the robot cheating behaviour: participants made unfavorable
+%character attributions to the cheating robot, so the robot's actions affected
+%perceptions of the robot as ``fair'' and ``honest''.
 
 
 %	\cite{short_no_2010} found that participants often had an emotional reaction
@@ -826,9 +829,6 @@ perceptions of the robot as ``fair'' and ``honest''.
 %	frequently described it as a mistake or malfunction, while only sometimes
 %	calling it cheating.
 
-
-
-\subsection{Engagement}
 
 In terms of \textbf{engagement}, the novelty of the robot certainly plays a role
 here. As mentioned before, the findings here do not directly address the issues
@@ -860,20 +860,17 @@ strong audio and light cues as compared to the other behaviours.}. For
 scores of \textit{lost} and \textit{disobey}. Data suggests that when the
 robot is lost, children look more often at the experimenter than when the
 robot disobeys. The other actions were not found to differ significantly
-between the robot behaviour conditions.	
+between the robot behaviour conditions.
 
-Overall, was there an effect on engagement when the robot misbehaved? We compare
-children's engagement during the interaction phase with the expected robot
-behaviour and during the interaction phase with the unexpectedly behaving robot.
-A statistical analysis revealed a significant difference between the average of
-engagement actions carried out during the first 7 runs (correct robot behaviour)
-and during the second 7 runs, when the robot behaved unexpectedly (F(1,36)=5.1,
-p=.03). In all three conditions, children carried out more engagement
-actions with the unexpectedly behaving robot. No interaction effect was found
-between the two phases of interaction (expected / unexpected) and condition
-(F(2,36)=1.2, p=.31). In general, this finding supports our first hypothesis:
-children show more engagement toward a robot that behaves unexpectedly from time
-to time compared to a robot that always behaves correctly.
+Overall, we found a significant difference between the average of engagement
+actions carried out during the first 7 runs (correct robot behaviour) and during
+the second 7 runs, when the robot behaved unexpectedly (F(1,36)=5.1, p=.03). In
+all three conditions, children carried out more engagement actions with the
+unexpectedly behaving robot. No interaction effect was found between the two
+phases of interaction (expected / unexpected) and condition (F(2,36)=1.2,
+p=.31). In general, this finding supports our first hypothesis: children show
+more engagement toward a robot that behaves unexpectedly from time to time
+compared to a robot that always behaves correctly.
 
 \subsection{Attribution of higher cognitive skills}
 
@@ -1047,9 +1044,9 @@ other humans). For more details the reader may refer to
         & M & SD & groups with index > 8 \\
         \midrule
 
-        \textit{mistake} & 7.94 & 1.74 & 3 of 4 \\ 
         \textit{lost} & \textbf{8.31} & 0.59 & 3 of 4 \\ 
         \textit{disobey} & 6.5 & 3.68 & 2 of 5 \\
+        \textit{mistake} & 7.94 & 1.74 & 3 of 4 \\ 
         \bottomrule
     \end{tabular}
     \caption{\textbf{Anthropomorphism index.} The maximum possible index was 16. The
@@ -1111,59 +1108,64 @@ investigate the aspect further in future research.
     \label{fig:domino-anthropo-interaction}
 \end{figure}	
 
-Our data on the anthropomorphism index also suggest \textbf{qualitative gender
-differences} in children's tendency to anthropomorphize Ranger. Boys (M=8.2,
-SD=3.0) obtained a higher mean index of anthropomorphism than girls (M=6.4,
-SD=2.4). (Interestingly, as it was mentioned before, boys interacted slightly
-more with the robot than girls; though not significantly. This is
-counter-intuitive concerning the negative correlation between amount of
-interaction with the robot and anthropomorphism tendency.) It would be
-interesting to investigate in more detail whether boys are more prone to
-anthropomophize a robot than girls.\footnote{Findings presented in
-\cite{schermerhorn_robot_2008} suggested similar gender differences. In their
-study, males tended to think of the robot as more human-like and accordingly
-showed more ``social facilitation'' than females, who perceived the robot as
-more machine-like.} 
-
-\paragraph{Summary}
-
-The established \textit{anthropomorphism index} suggests that children tend to
-conditionally anthropomorphize the robot. Higher indexes of anthropomorphism
-were found in the \textit{lost} and \textit{mistake} condition which was against
-our hypothesis. Interestingly, data suggests a significant negative correlation
-of engagement and anthropomorphism index. It appears that groups who interacted
-more with the robot perceived it as less-humanlike. This raises the question to
-what extent anthropomorphic perceptions of a robot can last over time, and with
-increasing interaction experience.
+%Our data on the anthropomorphism index also suggest \textbf{qualitative gender
+%differences} in children's tendency to anthropomorphize Ranger. Boys (M=8.2,
+%SD=3.0) obtained a higher mean index of anthropomorphism than girls (M=6.4,
+%SD=2.4). (Interestingly, as it was mentioned before, boys interacted slightly
+%more with the robot than girls; though not significantly. This is
+%counter-intuitive concerning the negative correlation between amount of
+%interaction with the robot and anthropomorphism tendency.) It would be
+%interesting to investigate in more detail whether boys are more prone to
+%anthropomophize a robot than girls.\footnote{Findings presented in
+%\cite{schermerhorn_robot_2008} suggested similar gender differences. In their
+%study, males tended to think of the robot as more human-like and accordingly
+%showed more ``social facilitation'' than females, who perceived the robot as
+%more machine-like.} 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Lessons Learned and Future Directions}
+\section{Conclusions and Future Directions}
 
 
-We found that in a playful scenario where 4-5 year old children play domino
-together with a robot, the robot seems to be more engaging when it shows some
-misbehaviour compared to when it always behaves as expected. However, we
-cannot say if this effect holds also after novelty has worn off.
+As hypothesised, we found that in a playful scenario where 4-5 year old children
+play domino together with a robot, the robot seems to be more engaging when it
+shows some misbehaviour compared to when it always behaves as expected
+(notwithstanding the likely impact of a novelty effect).
 
-From what we
-have seen in the Domino Study, we have a rough estimate of how children react
-and relate to a robot that behaves unexpectedly from time to time. They are
-mostly surprised, laugh at the robot, and they tend to be more engaged and
-playful. However, they are also confused and cannot really make sense of the
-robot's strange behaviour. We also cannot conclusively tell apart whether children perceived
-the unexpected robot behaviour entirely as a malfunction (something that happens
-to a machine) or as being intended and based on a motivation (something related
-to a social entity). Children stated both, when asked why the robot had
-misbehaved. Some referred to \textit{``a technical problem''} while others said
-the robot \textit{``is tired''} or it \textit{``doesn't want to carry domino
-tiles any more but rather go on a tour outside''}. Maybe our manipulations were
-not as clearly designed as we expected. There is always some freedom in how
-things are interpreted -- especially with young children.  Certainly more work
-needs to be done to investigate which robot behaviour is most beneficial for
-young children and can promote their engagement and motivation to interact with
-Ranger over extended periods of time.  
+Regarding the design of our three conditions (\emph{lost},
+\emph{disobey}, \emph{mistake}), we cannot conclusively affirm whether children perceived the
+unexpected robot behaviour as a malfunction (something that happens to a
+machine) or as being intended and based on a motivation (something related to a
+social entity). Children stated both, when asked why the robot had misbehaved.
+Some referred to \textit{``a technical problem''} while others said the robot
+\textit{``is tired''} or it \textit{``doesn't want to carry domino tiles any
+more but rather go on a tour outside''}. While our manipulations were not as
+clearly designed as we expected for the age range of the subjects, we still
+believe these three conditions (mechanical malfunction -- the \emph{lost}
+condition, vs. explicit intentionality -- the \emph{disobey} condition, vs.
+implicit intentionality -- the \emph{mistake} condition) are relevant and we
+suggest to replicate a similar study with slightly older children.
+
+
+%It also appears
+%From what we
+%have seen in the Domino Study, we have a rough estimate of how children react
+%and relate to a robot that behaves unexpectedly from time to time. They are
+%mostly surprised, laugh at the robot, and they tend to be more engaged and
+%playful. However, they are also confused and cannot really make sense of the
+%robot's strange behaviour. We also cannot conclusively tell apart whether children perceived
+%the unexpected robot behaviour entirely as a malfunction (something that happens
+%to a machine) or as being intended and based on a motivation (something related
+%to a social entity). Children stated both, when asked why the robot had
+%misbehaved. Some referred to \textit{``a technical problem''} while others said
+%the robot \textit{``is tired''} or it \textit{``doesn't want to carry domino
+%tiles any more but rather go on a tour outside''}. Maybe our manipulations were
+%not as clearly designed as we expected. There is always some freedom in how
+%things are interpreted -- especially with young children.  Certainly more work
+%needs to be done to investigate which robot behaviour is most beneficial for
+%young children and can promote their engagement and motivation to interact with
+%Ranger over extended periods of time.  
 
 
 %	Whereas a cheating opponent is acting out of a desire to win the game, a
@@ -1174,81 +1176,82 @@ Ranger over extended periods of time.
 %	has motivations and desires.'' Short et al.}
 
 
-\subsection{Limitations}
+%\subsection{Limitations}
+%
+%This study and the results have several limitations.  First, we did not have a
+%real control group in which the robot always behaved correctly. Instead, we took
+%the first interaction phase as a reference for how children interact with the
+%correctly behaving robot.  Also, the sample size of 13 groups was small. There
+%were  variations in the data due to the individual differences of children. More
+%data could have allowed for a better comparison between the conditions.
+%
+%With the manipulation of the robot behaviour we were able to surprise children.
+%However, it is questionable how often the same type of behaviour manipulation
+%leads to surprise. Moreover, our experiment was a short-term interaction study
+%while we try to make statements about how to sustain long-term engagement. This
+%is critical but not unusual. Long-term HRI studies with young children are
+%extremely rare as they are difficult to set up as well as time and resource
+%consuming \cite{leite_long-term_2013}. Nevertheless, we could have probably
+%improved our study by setting up several short interaction sessions spreading
+%over several weeks. At the end of each session we could have asked whether
+%children want to play again with the robot. Such a study could have helped to
+%investigate the long-term interaction with the robot and the impact of the
+%behavioural variances.
+%
+%\subsection{Lessons Learned}
+%
+%One of the lessons learned is that it is difficult to set up a controlled lab
+%study with young children. Children are not like adults who patiently
+%participate in a 45-minutes experiment and then get some reward in the end. On
+%one hand, an experiment with children should not be boring for them, but on the
+%other hand, you would like to seriously collect some data. A lot of the
+%challenges we experienced are also described in \cite{ros_child-robot_2011}. One
+%of the most difficult parts turned out to be the interviews with the children.
+%We need to be careful to not over interpret some of their answers. Some children
+%seem to not have a clear opinion and partly contradict themselves. These answers
+%are not easy to interpret. An interview script including the questions need to
+%be designed very carefully, and should definitely be tested beforehand with the
+%respective age group.
+%
+%Overall, it appears that when trying to study something in more detail, such as
+%the manipulation of robot behaviour, 4-5 year old children may be too young. But
+%when trying to evaluate a more general approach, the design of a prototype, or
+%an interaction scenario, children are a very good choice. They say things as
+%they are and react very naturally, when compared to adults, who may reply more
+%socially desired. 
+%
+%
+%\paragraph{Summary}
 
-This study and the results have several limitations.  First, we did not have a
-real control group in which the robot always behaved correctly. Instead, we took
-the first interaction phase as a reference for how children interact with the
-correctly behaving robot.  Also, the sample size of 13 groups was small. There
-were  variations in the data due to the individual differences of children. More
-data could have allowed for a better comparison between the conditions.
+%In this study, we investigated the effect of unexpected robot behaviour on
+%children's engagement in interacting with Ranger and on their perception of the
+%robot.  Our first hypothesis finds support: children show more engagement toward
+%a robot that behaves unexpectedly from time to time. Further, different types of
+%unexpected behaviour may have a different effect, and therefore the behaviour
+%manipulation needs to be designed with care.
 
-With the manipulation of the robot behaviour we were able to surprise children.
-However, it is questionable how often the same type of behaviour manipulation
-leads to surprise. Moreover, our experiment was a short-term interaction study
-while we try to make statements about how to sustain long-term engagement. This
-is critical but not unusual. Long-term HRI studies with young children are
-extremely rare as they are difficult to set up as well as time and resource
-consuming \cite{leite_long-term_2013}. Nevertheless, we could have probably
-improved our study by setting up several short interaction sessions spreading
-over several weeks. At the end of each session we could have asked whether
-children want to play again with the robot. Such a study could have helped to
-investigate the long-term interaction with the robot and the impact of the
-behavioural variances.
-
-\subsection{Lessons Learned}
-
-One of the lessons learned is that it is difficult to set up a controlled lab
-study with young children. Children are not like adults who patiently
-participate in a 45-minutes experiment and then get some reward in the end. On
-one hand, an experiment with children should not be boring for them, but on the
-other hand, you would like to seriously collect some data. A lot of the
-challenges we experienced are also described in \cite{ros_child-robot_2011}. One
-of the most difficult parts turned out to be the interviews with the children.
-We need to be careful to not over interpret some of their answers. Some children
-seem to not have a clear opinion and partly contradict themselves. These answers
-are not easy to interpret. An interview script including the questions need to
-be designed very carefully, and should definitely be tested beforehand with the
-respective age group.
-
-Overall, it appears that when trying to study something in more detail, such as
-the manipulation of robot behaviour, 4-5 year old children may be too young. But
-when trying to evaluate a more general approach, the design of a prototype, or
-an interaction scenario, children are a very good choice. They say things as
-they are and react very naturally, when compared to adults, who may reply more
-socially desired. 
-
-
-\paragraph{Summary}
-
-In this study, we investigated the effect of unexpected robot behaviour on
-children's engagement in interacting with Ranger and on their perception of the
-robot.  Our first hypothesis finds support: children show more engagement toward
-a robot that behaves unexpectedly from time to time. Further, different types of
-unexpected behaviour may have a different effect, and therefore the behaviour
-manipulation needs to be designed with care.
-We did not find support for our second hypothesis which stated that children
+Still, we did not find support for our second hypothesis which stated that children
 perceive a robot showing intention or cognitive abilities as more human-like
-than a robot that appears to have a system error. This may be due to the study
+than a robot that appears to have a system error. While this may be due to the study
 setup and the fact that children did not interpret the robot misbehaviour in the
-conceived way. Our findings seem to suggest the contrary to our hypothesis. A
+conceived way, our findings seem to suggest the contrary to our hypothesis. A
 robot that appeared to do a \textit{mistake} or to be \textit{lost} was more
-anthropomorphized than a robot that \textit{disobeyed}. But again, as children
-may have misinterpreted these robot behaviours we cannot be sure about this
-result.
+anthropomorphized than a robot that \textit{disobeyed}.
 
-Another outcome of this study is the initial development and first tryout of an
-\textbf{anthropomorphism index}. This index considers both behavioural and
-perception aspects and is able to indicate lower and higher levels of
-anthropomorphism along this continuous index. At the moment, there is no such
-index available that quantifies anthropomorphism along a scale and there is no
-technique that combines behaviour and perception. In the future, we will need to refine
-and improve this scale. For instance, we need to identify the specific factors
-that should be included as measurement points in such a scale, for both aspects
-(behaviour and perception). Also, we need to think about how to balance the two
-aspects appropriately. Probably, also characteristics of the person, the robot,
-and the situation need to be considered. 
 
+Another outcome of this study is the initial application of an
+anthropomorphism index to a child-robot interaction study. This index
+considers both behavioural and phenomenological aspects and is able to indicate
+lower and higher levels of anthropomorphism along this continuous index.  Our
+experience with this index suggests that children tend to conditionally
+anthropomorphize the robot. Higher indexes of anthropomorphism were found in the
+\textit{lost} and \textit{mistake} condition which was against our hypothesis.
+
+Interestingly, data suggests a significant negative correlation of engagement
+and anthropomorphism index. It appears that groups who interacted more with the
+robot perceived it as less-humanlike. This raises an important question for the
+human-robot interaction community: to what extent anthropomorphic perceptions
+impact the interaction experience. Our findings here go against the intuition.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
