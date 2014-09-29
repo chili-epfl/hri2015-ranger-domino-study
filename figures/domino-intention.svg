@@ -13,8 +13,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48+devel r"
-   width="446.9223"
-   height="399.24081"
+   width="563.23309"
+   height="359.1297"
    xml:space="preserve"
    sodipodi:docname="domino-intention.svg"><metadata
      id="metadata8"><rdf:RDF><cc:Work
@@ -24,7 +24,7 @@
        inkscape:collect="always"
        xlink:href="#Strips1_2"
        id="pattern5752"
-       patternTransform="matrix(0.90407594,0.90816613,-12.656764,12.59976,2.8125001e-8,-3.1460128)" /><pattern
+       patternTransform="matrix(0.90407594,0.90816613,-12.656764,12.59976,5.6250002e-8,-3.1460096)" /><pattern
        inkscape:stockid="Stripes 1:2"
        id="Strips1_2"
        patternTransform="translate(0,0) scale(10,10)"
@@ -508,7 +508,7 @@
          inkscape:connector-curvature="0"
          d="M 0,0 362,0 362,303 0,303 0,0 Z"
          id="path20-4" /></clipPath><pattern
-       patternTransform="matrix(0.8501375,0.90722476,-11.901644,12.586699,47.883815,-2.9939503)"
+       patternTransform="matrix(0.8501375,0.90722476,-11.901644,12.586699,47.883815,-2.9939471)"
        id="pattern5847"
        xlink:href="#pattern5830"
        inkscape:collect="always" /><pattern
@@ -533,7 +533,7 @@
          y="-0.5"
          x="0"
          style="fill:black;stroke:none" /></pattern><pattern
-       patternTransform="matrix(0.8501375,0.90722469,-11.901644,12.586699,392.14293,-24.050646)"
+       patternTransform="matrix(0.8501375,0.90722469,-11.901644,12.586699,392.14293,-24.050643)"
        id="pattern5882"
        xlink:href="#pattern5847-1"
        inkscape:collect="always" /><pattern
@@ -562,7 +562,7 @@
          y="-0.5"
          x="0"
          style="fill:black;stroke:none" /></pattern><pattern
-       patternTransform="matrix(0.85013752,0.90722472,-11.901644,12.586699,374.54293,-24.050645)"
+       patternTransform="matrix(0.85013752,0.90722472,-11.901644,12.586699,374.54293,-24.050642)"
        id="pattern5920"
        xlink:href="#pattern5882-0"
        inkscape:collect="always" /><pattern
@@ -595,7 +595,7 @@
          y="-0.5"
          x="0"
          style="fill:black;stroke:none" /></pattern><pattern
-       patternTransform="matrix(0.85013753,0.90722469,-11.901644,12.586699,419.10195,-52.674809)"
+       patternTransform="matrix(0.85013753,0.90722469,-11.901644,12.586699,229.48103,-201.18051)"
        id="pattern5920-0"
        xlink:href="#pattern5882-5"
        inkscape:collect="always" /><pattern
@@ -636,15 +636,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="838"
+     inkscape:window-width="1680"
+     inkscape:window-height="1015"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.3036536"
-     inkscape:cx="307.18364"
-     inkscape:cy="256.26414"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:cx="273.43234"
+     inkscape:cy="120.26865"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10"
      fit-margin-top="0"
@@ -979,7 +979,7 @@
          id="tspan5437">do something silly?</tspan></text>
 <g
        id="g5447"
-       transform="translate(-319.71683,-24.68547)"><path
+       transform="translate(-21.478095,168.61741)"><path
          id="path538"
          style="fill:#aac46c;fill-opacity:1;fill-rule:evenodd;stroke:none"
          d="m 412.08955,25.923402 7.6882,0 0,-7.6882 -7.6882,0 0,7.6882 z"
@@ -995,7 +995,7 @@
            id="tspan552">yes </tspan></text>
 </g><g
        id="g5452"
-       transform="translate(-262.0328,-1.2273201)"><path
+       transform="translate(-21.478095,169.67698)"><path
          id="path562"
          style="fill:#cd665f;fill-opacity:1;fill-rule:evenodd;stroke:none"
          d="m 412.08955,1.0093021 7.6882,0 0,-7.6883 -7.6882,0 0,7.6883 z"
@@ -1011,7 +1011,7 @@
            id="tspan576">no </tspan></text>
 </g><g
        id="g5457"
-       transform="translate(-211.09902,23.71488)"><path
+       transform="translate(-21.478095,172.22058)"><path
          id="path586"
          style="fill:#6095c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
          d="m 412.08955,-23.904898 7.6882,0 0,-7.6883 -7.6882,0 0,7.6883 z"
