@@ -1,0 +1,407 @@
+HRI 2015 Full Papers
+
+Reviews of submission #2189: "How Children Perceive and Interact with a
+Robot that Behaves Unexpectedly"
+
+------------------------ Submission 2189, Review 4 ------------------------
+
+Reviewer:           primary
+
+Expertise
+
+   3  (Knowledgeable)
+
+Summary of (Theme-specific) Contributions
+
+   This paper explores the impact of unexpected robot behaviors on
+   engagement and perceptions of anthropomorphism by children. It utilizes a
+   new scenario involving robot-mediated play between two children to
+   generate qualitative and quantitative data.
+
+Meta Review
+
+   Strengths:
+
+   All three reviewers saw potential in this work.
+
+   Aspects of the study were viewed as novel and interesting (1, 3).
+
+   Work in this area is challenging (1).
+
+   The negative correlation between anthropomorphism and engagement is
+   interesting (1). I agree with the authors that there may be two
+   sub-groups within the population. For example, there appears there may be
+   a positive correlation within the higher engagement group.
+
+   Weaknesses:
+
+   All three reviewers expressed concerns over the soundness of the
+   analyses. These included some potential errors (2), concerns about
+   inconsistent sample sizes (1, 2), coding methods (1), questions about
+   statistical techniques (1, 2), and concerns about scoring methods and the
+   anthropomorphism index (1, 3). 
+
+   One reviewer questioned the index weights (1), which is especially
+   important since the paper describing the index is currently under review.
+   Another reviewer also expressed concerns about relying on this citation
+   (3). While citing work under review does happen, there is special concern
+   due to the importance of this citation to the work. 
+
+   There were concerns about aspects of the experiment scenario and
+   activities (2, 3).
+
+   Two reviewers felt improvements could be made to the related work (2, 3).
+
+
+   All three reviewers felt the presentation of the paper needed more
+   attention.
+
+   The authors should focus on improving a) the rationale for the methods
+   and b) the findings and conclusions sections.
+
+   Personally, I agree with the reviewer who perceived this paper as hastily
+   prepared and written (2). I think this paper would have significantly
+   benefitted from additional internal review and refinement. There is good
+   material here to build from.
+
+   I have some concerns about the strength of certain findings due to
+   typical behaviors found in 4-5 year old children. Kids this age often
+   have imaginary friends, assign anthropomorphic qualities to inanimate
+   objects, and display other behaviors that could explain some of the
+   qualitative results. I don’t think the paper’s data are inaccurate,
+   but I recommend caution when discussing the implications of the findings.
+
+   I recommend using author names in addition to citation number when trying
+   to say “[1] describe...” or “[13] found ...” I count at least
+   four instances of this. This is done correctly for the Fink reference.
+   Again, this suggests a hasty submission.
+
+   Also, the font size for text in the graphs is too small.
+
+Recommendation
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+------------------------ Submission 2189, Review 1 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   3  (Knowledgeable)
+
+Summary of (Theme-specific) Contributions
+
+   The main contribution of the paper is a WoZ study in which pairs of
+   children interact with the robot Ranger. The robot behaved unexpectedly
+   in some cases (got lost, disobeyed or made mistakes) and this tended to
+   increase engagement in comparison to a robot that always behaved as
+   expected. The authors also hypothesized that the anthropomorphic
+   perception of the robot and the amount of engagement in the interaction
+   would positively correlate, but found the opposite ("the more a group
+   showed engagement in an interaction, the less they anthropomorphized the
+   robot"). While it is not clear why this happened, I think that this
+   result is interesting and could potentially motivate further research on
+   how familiarization can affect perceived anthropomorphism in young
+   children.
+
+Strengths and Weaknesses
+
+   I think that the main strength of the paper is the study itself, since
+   working with robots and kids is not easy. The domino activity is novel,
+   and could motivate similar experiments to try to better understand
+   children-robot interaction.
+
+   While the paper is relevant for the HRI community, I am worried about the
+   methodology that was used to analyze some of the data. For example,
+   engagement is partly measured by how often a child looked at the
+   experimenter "due to confusion caused by the robot". How did the
+   experimenters decide why the children looked at the experimenter? Could
+   have they been confused by the other child or some other aspect of the
+   task rather than the robot itself? An alternative/complementary measure
+   of engagement that might be worth looking at is the number of times that
+   the kids were clearly disengaged from the task or were distracted by
+   something else than the robot. Another way is to compute for how long the
+   kids were orienting their heads towards the robot (measuring gaze
+   patterns would be ideal but may be too hard for the experiment set up).
+
+   It is unclear to me if the units (or the scale) of the points that were
+   assigned to the different aspects of the anthropomorphism index are
+   appropriate. Why does "agreeing that Ranger can be happy or sad" is twice
+   as many points as "agreeing that Ranger can go out the door by itself"?
+   Why isn't it 2.5 or 3 times more important? It seems to me like the
+   choice of scale was arbitrary and that any other choice (even with the
+   same order of importance between the items) could lead to different
+   results. I strongly suggest improving the rationale in this respect.
+
+   Also, some results in Section 3 are poorly presented. What statistical
+   method/test was used to concluded that there was a "significant
+   difference between the average of engagement actions carried out during
+   the first 7 runs (...) and during the second 7 runs"? The authors also
+   say that "the mean index of anthropomorphism in the three conditions
+   varied, with the mistake and lost condition leading to a higher index
+   than the disobey condition", but never present the actual mean values,
+   nor standard errors or deviations from the mean. By how much did they
+   vary?
+
+
+Soundness
+
+   My concerns were expressed in the Strengths and Weaknesses section of
+   this review.
+
+Related Work
+
+   Related work is OK.
+
+Presentation
+
+   The paper flows nicely, but I'd suggest improving a few figures/tables.
+   Why does Fig. 3 exclude "explore"? The text that references Fig. 3 in
+   Section 2.3.1 does not provide any rationale for this omission. 
+
+   Also, I'd suggest improving the presentation of the interview questions
+   (Table 1). Which ones were asked after run 1.5 and after the whole
+   experiment? Where they asked in the same order always? Where some
+   questions skipped in certain cases? I suggest adding brief comments that
+   address these questions to the caption of the table.
+
+   The numbers in the right plot of Figure 6 sum up to 18, but there were 26
+   kids. Did the remaining kids stay quiet when they were asked about "why
+   is it not alright to leave Ranger alone?" ? If a significant proportion
+   of kids did not answer many of the questions that were asked by the
+   experimenters (it is unclear to me how many times the kids stayed quiet
+   exactly), then maybe the style of the interview was not appropriate for
+   the children. Maybe graphic scales (e.g., happy-sad faces) could have
+   been better to elicit children's opinions?
+
+   A few minor typos could be fixed as well:
+   - missing comma "," after lost in first paragraph of section 2.2 (line 4)
+   - extra ")" in last paragraph of section 2.3.2
+   - seems like a word is missing at the beginning of the sentence: "Asked
+   for more details, ..." in the first paragraph of the Emotions and
+   Companionship section, as well as in the first paragraph of Moral
+   Standing
+   - "This is also reflected in *the* children's behavior" - second
+   paragraph of section 3.3 (penultimate line of the column)
+
+Suggestions
+
+   I'd suggest improving the results section of the paper to make it clearer
+   in terms of the design of the experiment and the analysis of the data.
+   Also, I'd be careful with the conclusions drawn from the results. For
+   example, the paper closes with "the data suggests that anthropomorphic
+   perception does not automatically elicit engagement, but the contrary",
+   but correlation does not necessarily imply causation.
+
+Recommendation
+
+   As mentioned before, the weaknesses could be addressed by improving the
+   presentation of the experiment and the results. This includes providing a
+   better rationale for the analyses that were conducted and, if possible,
+   providing a few more quantitative results. As it is, I am worried about
+   the soundness of the paper and its limited contributions. The only
+   hypothesis that was supported was that unexpected robot behaviors can
+   increase engagement, but this is not new - several related works have
+   reported this effect. Besides, the authors claim in the abstract of the
+   paper that this study "operationalizes for the first time the
+   anthropomorphism index proposed by [6]", but [6] appears as "Submitted"
+   in the references and is merely discussed throughout the paper. It is
+   hard to judge if this is an important contribution without more
+   information on [6].
+
+Overall Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+------------------------ Submission 2189, Review 2 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   4  (Expert)
+
+Summary of (Theme-specific) Contributions
+
+   This paper explores the anthropomorphic index of effectiveness in
+   children and robot interaction to enhance children's experience with the
+   robot repetitively. The main contribution of this paper is to study the
+   impact of unexpected robot behaviours (got lost, disobeyed or made
+   mistakes) on the perception of robot by children and their subsequent
+   engagement in a playful interaction with WoZ method.
+
+Strengths and Weaknesses
+
+   Originality and Novelty: Authors studied the children and robot
+   interaction to improve it without boredom under the assumption(get lost,
+   mistakes,disobeying).
+
+   Weakness:
+   This paper is on Children and robot interaction which looks like a moving
+   box.
+   Not only behavior but also appearance may be contained to the
+   anthropomorphic index. Authors should declare this how they considered
+   only behavior without appearance faction when setting the hypothesis. 
+
+   Authors assumed that the disobeying robot and the robot that makes a
+   mistake will be more anthropomorphized than the robot that gets lost.
+   However, some people think the robot that gets lost is more than those.
+   How can authors persuade them with theoretical background studies?
+
+Soundness
+
+   In the section 2.3.1, authors should check some values. For example, they
+   provided 92 actions but I can obtain 90.53 actions from 2354/26=90.53
+   actions from section 2.3.1. 
+
+   If I took your values, 92 actions, how 
+   is the average action per minute? I can obtain 145 minutes/ 26
+   children=5.57 minutes per child and 92 actions per child.
+   And then I can calculate the average actions, 16.5, per child and per
+   minutes from 92 actions/5.57 minutes per child. Finally 16.5 actions/14
+   run= 1.17 actions for Average actions per child per minutes as we see the
+   range of the vertical axis is 0~2.5. If my value 90.53 is right, the
+   result is different. Which one is right??
+
+   In Figure 3, authors give n=480, but n means the number of participants
+   (n=26 in section 2.1). It may be confused to readers. I recommended
+   authors use another variable name such as m. 
+
+   Moreover,they should provided T-test between expected and unexpected
+   behavior to test three hypothesises from Figure 3 for readers.
+
+   In the section 3.1, why don't authors use X2-test not F-test?
+
+    
+
+Related Work
+
+   There are some studies for avoiding  boredom in children and robot
+   interaction. For example, calling name, appearance, and so on. Authors
+   should declare the originality from them.
+
+Presentation
+
+   When I read this paper, it seems to be hastily prepared and written.
+
+   In the first sentence of the section 2.2, authors provided a total of 14
+   run. How long does it take per run? It would be helpful to be provided
+   the average time per 1 run.
+
+   It would be better to provide some tables for statistics in section 3.1.
+   The descriptive sentences are confused to readers.
+
+   It may be easy for reader to understand if the section 3 is consisted of
+   testing three hypothesises. Due to hypothesis in section 1.2, the
+   sub-sections of section 3 may seem to good presentation. 
+
+Suggestions
+
+   In Figure 7, it would be better if authors discuss the outliers (3
+   points) as an in-depth discussion.
+
+Recommendation
+
+   While this paper has some weakness, it is interesting and meaningful. I
+   think it needs to be re-structed and re-written to show sufficiently its
+   contribution. When I read this paper, it seems to be hastily prepared and
+   written.
+
+Overall Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+------------------------ Submission 2189, Review 3 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   4  (Expert)
+
+Summary of (Theme-specific) Contributions
+
+   The study is related to the "Studies" 
+
+Strengths and Weaknesses
+
+   This trial is original and interesting. However, the theoretical
+   structure of the paper is not fine.
+
+Soundness
+
+    As an example of field work, this study provides interesting topic. 
+   However, the results do not show strongly important findings.
+
+Related Work
+
+     I expected to find more citation to interactive robotics literature
+   especially with regards playground concept for the children. 
+
+   http://link.springer.com/chapter/10.1007/978-3-319-07440-5_52
+
+Presentation
+
+    The organization of the paper is great, but the details and clarity
+   could be improved.
+
+Suggestions
+
+   The proposed study explores the impact of unexpected robot’s behaviors
+   on the perception of a robot by children in playful interactions. 
+
+   Authors have to remove the split of paragraph and reference from the
+   abstract. References should be change as Short at al [10] studied… 
+
+   The study is used the anthropomorphism index which was proposed in the
+   study of [6]. According to the references section, the study is just
+   submitted to the Frontiers in cognitive science. Did author get the
+   acceptance of the paper? If it’s not, how should we validate the
+   anthropomorphism index? 
+
+   Reviewer has some concern about the experiment setup; as pointed in
+   section 2.1 “ A play mat with a river drawn on it is used as an
+   imaginary barrier that only the robot is allowed to cross”. It’s
+   difficult to understand this type of restriction in the play ground; what
+   are the objectives of the restriction? In the experiment, every context
+   was well defined to establish the interaction. Generally, reviewer has
+   many experiences to deal with small children and using the natural setup
+   & free-interaction (without restriction) context gives a more interesting
+   interaction from the children. Please argue with my statement to improve
+   the section 2.1. 
+
+   In child-robot interaction, we can collect the variety of behaviors,
+   responses, feedback etc as shown in Figure 3. How should we statistically
+   validate those results to make a general conclusion for HRI community?
+   Reviewer is wondering how authors got the feedback from questions based
+   approach and how the approach was success (validity of children’s
+   response). Reviewer can’t evaluate the anthropomorphism index, because
+   it’s just contained the point system and we don’t have published work
+   or study to validate this index.    
+
+    Section 3 is dealing with number of answers given by students to
+   validate entire concept; e.g misbehavior recognition and engagement. The
+   approach just gives how many children were responded to the questions.
+   Authors have to capture more interesting behavioral data to validate
+   their study.  
+
+   Paper is very well written and organized, but instead of considering the
+   number of students as a statistics to validate the concept, behavior of
+   children and robot feedback based connectivity should be bring into
+   discussion to indicate the advantage of the study. 
+
+Recommendation
+
+   Although the paper has some weaknesses, they can be addressed by making
+   the improvements as i suggested. 
+
+Overall Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+
