@@ -1,4 +1,5 @@
-\documentclass{sig-alternate}
+\documentclass[letterpaper, 10pt, conference]{ieeeconf}
+\overrideIEEEmargins
 
 % UTF8 support
 \usepackage[utf8x]{inputenc}
@@ -14,45 +15,28 @@
 \newcommand{\etal}{{\textit{et al.~}}}
 \newcommand{\ie}{{\textit{i.e.~}}}
 
-
-
-%
-% --- Author Metadata here ---
-\conferenceinfo{10th ACM/IEEE International Conference on Human-Robot Interaction}{2015 Portland, USA}
-%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
-%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
-% --- End of Author Metadata ---
-
 \title{\LARGE \bf
-How Children Perceive and Interact with a Robot that Behaves Unexpectedly
+Unexpected Behaviors: Impact on Child-Robot Interaction
 }
 
-%%% HRI 2015 -> double-blind review process
-
-%\numberofauthors{1} 
-%\author{
-%\alignauthor
-%Julia Fink, S\'{e}verin Lemaignan, Pierre Dillenbourg\\
-%%\titlenote{Dr.~Trovato insisted his name be first.}
-%       \affaddr{Computer-Human Interaction in Learning and Instruction Lab (CHILI)}\\
-%       \affaddr{Ecole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL)}\\
-%       \affaddr{CH-1015 Lausanne}\\
-%       \affaddr{Switzerland}\\
-%       \email{firstname.lastname@epfl.ch}
-%}
-%
-%\additionalauthors{Additional authors: 
-%Francesco Mondada, LSRO, EPFL, francesco.mondada@epfl.ch 
-%}
-%
+\author{
+    S\'{e}verin Lemaignan$^{1,2}$, Julia Fink$^{1}$, Francesco Mondada$^{2}$, Pierre
+    Dillenbourg$^{1}$\\
+$^{1}$Computer-Human Interaction in Learning and Instruction Lab (CHILI) \\
+$^{2}$Laboratoire de Systèmes Robotiques (LSRO) \\
+École Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL) \\
+CH-1015 Lausanne, Switzerland \\
+{\tt\small firstname.last@epfl.ch}
+}
 
 \begin{document}
 \sloppy % prevent margin overflow
 \maketitle
 \begin{abstract}
 
-Presented is a study on the impact of unexpected robot behaviours on the
-perception of a robot by children and their subsequent engagement in a playful interaction.
+We present a study on the impact of unexpected robot behaviours on the
+perception of a robot by children and their subsequent engagement in a playful
+interaction based on a novel "domino" task.
 We propose an original analysis methodology which blends behavioural cues and
 reported phenomenological perceptions into a compound index.
 
@@ -62,11 +46,6 @@ interesting findings include a sustained engagement level, an unexpectedly low
 level of attribution of higher cognitive abilities and a \emph{negative}
 correlation between anthropomorphic projections and actual behavioural
 engagement.
-
-Besides, this study operationalizes for the first time the
-\emph{anthropomorphism index} proposed by~\cite{fink2014dynamics}, which can be
-considered as an effective tool to assess qualitative psycho-behavioural
-episodes occurring during human-robot interaction.
 
 \end{abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,10 +93,10 @@ improved by the introduction of such simple behaviours, and that this should
 be exploited by designers in HRI. Bringing human and robot together to
 perform a simple, repetitive, familiar task and then having the robot behave
 unexpectedly can increase engagement and mental state attribution without
-complex behavioural or mechanical additions.''}  Along those lines, Fink
-\etal\cite{fink2014dynamics} also suggest in their model of the dynamics of
-anthropomorphism in HRI, that \emph{disruptive behaviours} may lead to increased
-anthropomorphic projections and possibly engagement.
+complex behavioural or mechanical additions.''}  Along those lines, we also
+suggested in our model of the dynamics of anthropomorphism in
+HRI~\cite{lemaignan2014dynamics} that \emph{disruptive behaviours} may lead to
+increased anthropomorphic projections and possibly increased engagement.
 
 Based on this previous research, we would like to explore in this study how
 we can enhance children's experience with the robot so that they do not find it
@@ -132,11 +111,22 @@ manipulating the robot's behaviour in such way that it appears
 robot behaviour impact children's interaction with Ranger and their perception of
 it (in terms of attributing intention and cognitive abilities to the robot).
 
-This study also aims at assessing the effectiveness of the \emph{anthropomorphic
-index} proposed in~\cite{fink2014dynamics} as a compound (behavioural
-and phenomenological) metric for the attribution of human-like features to
-a robot. We are especially interested in investigating how this indicator predicts
-and/or reflects actual \emph{engagement} in the interaction.
+The main outcomes of this research, detailed hereafter, can be summarized as:
+
+\begin{enumerate}
+    \item an actionable approach (introduction of mis-behaviours) to support
+        child-robot engagement,
+    \item a mixed technique, blending behavioural cues and reported
+        phenomenological perceptions, to assess the robot perception in terms of
+        both engagement and human-likeliness,
+
+    \item a new experimental protocol that compares three types of
+        mis-behaviours, with different cognitive correlates,
+
+    \item and a first experimental cue that anthropomorphic perceptions do not
+        necessarily correlate with actual engagement.
+\end{enumerate}
+
 
 \subsection{Design and Hypotheses}
 
@@ -191,19 +181,19 @@ in general a robot that behaves unexpectedly from time to time can promote
 engagement and lead children to attribute intention to it. Based
 on the related work we formulate the following two hypotheses:
 
-\begin{description}
+\begin{itemize}
 
-    \item[Hypothesis 1:] Children show more engagement toward a robot that
+    \item {\bf Hypothesis 1}: Children show more engagement toward a robot that
         behaves unexpectedly from time to time compared to a robot that always
         behaves correctly.
 
-    \item[Hypothesis 2:] Children perceive a robot that (tentatively) displays
+    \item {\bf Hypothesis 2}: Children perceive a robot that (tentatively) displays
         intention or cognitive abilities as more human-like than a robot that
         appears to have a system error, \ie the disobeying robot and the robot
         that makes a mistake will be more anthropomorphized than the robot that
         gets lost.
 
-\end{description}
+\end{itemize}
 
 Our research questions deal with both children's observable behaviour and their
 perception of the robot. We would also like to explore the relation between
@@ -211,20 +201,19 @@ these two aspects, related to the attribution of human-like characteristics to
 the robot. The motivation behind this is to find out whether
 \textit{anthropomorphism} can not only be measured as a specific type of
 perception but also as an observable behaviour in the interaction itself. Thus,
-we would like to bring things together and, relying on the concept of
-anthropomorphism index~\cite{fink2014dynamics}, build a compound metric that
+we would like to bring things together and propose a compound metric that
 considers both children's perception and interaction aspects (qualitatively).
 Previous work suggests that a social relation to a robot (we view
 anthropomorphism as a specific type of social relation) reflects an increased
 engagement and can be effective in sustaining interaction.  Consequently, we
 formulate a third hypothesis:
 
-\begin{description}
+\begin{itemize}
 
-    \item[Hypothesis 3:] Anthropomorphic perception of the robot and the amount
+\item {\bf Hypothesis 3}: Anthropomorphic perception of the robot and the amount
     of engagement in the interaction positively correlate.
 
-\end{description}
+\end{itemize}
 
 
 
@@ -479,9 +468,8 @@ experimenter} due to confusion caused by the robot; look is not coded when the
 experimenter asks a question to the child);
 
 
-In total, we obtained 2354 distinct actions which summed up to a total
-annotation duration of 145 minutes. On average, one child accounted for 92
-actions (SD=23).
+In total, we obtained 2354 distinct actions. On average, interactions lasted
+13min 43sec, and one child accounted for 90.53 actions (SD=23).
 
 The actions \textit{put, remove} and \textit{call} are ``requested'' actions
 that the children had to perform in the scenario. On the contrary,
@@ -674,7 +662,7 @@ anthropomorphism index presented below.
 To account for the fact that anthropomorphism arises in an interaction, we bring
 both children's perception of the robot (post-measurement) and their behaviour
 toward it (in-the-moment measurement) together. We did so by building a
-anthropomorphism index~\cite{fink2014dynamics}. We quantify the
+so-called \emph{anthropomorphism index}. We quantify the
 index by attributing points for each anthropomorphic \emph{perception} of the
 robot and for specific kinds of human-like \emph{behaviour}
 toward the robot. The index included the following aspects:\\
@@ -724,9 +712,9 @@ to each item, but assigned points between 0.5 and 2 points depending on our
 perception of how a given item reflect on a higher level of anthropomorphic
 perception of the robot (for instance, ascribing the ability to see and hear was
 suggested by our study setup, and we cannot be sure that it really reflects
-anthropomorphism). We believe however that the approach remains valid,
-considering that the anthropomorphism index is primarily a \emph{comparison}
-metric and not an absolute value.
+anthropomorphism). Note that these issues are mitigated by using the
+anthropomorphism index as a \emph{relative} metric (comparison between
+conditions) and not an absolute value.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -925,24 +913,24 @@ but not intention. We interpret that children may perceive the robot as being
 able to process sensory information but that it is not able to make decisions on
 its own. 
 
-\paragraph{Emotions and Companionship}
-
-We examined whether children attribute \textbf{feelings} to the robot by asking
-them (once at the end of the experiment) if they thought that Ranger can feel
-happy or sad sometimes. The majority of
-children (21 of 26) gave a positive answer. Only 2 children who had interacted
-with the \textit{disobeying} robot did not believe that Ranger has feelings and
-another 3 children (2 \textit{disobey} and 1 \textit{lost}) did not reply at
-all. Overall, data suggests that \textbf{children attribute emotional states}
-to the robot. Asked for more details, several children answered that it is
-through its colours and sounds that the robot shows a feeling. Most children said
-that they could make the robot feel happy by playing with it and putting a
-domino tile inside the box. This may also be a reflection of their own feelings,
-projected on the robot. About half of the children (14 of 26) agreed that Ranger
-can be their friend. We did not ask about what being a friend means to them but
-as children generally liked playing with the robot, this may be linked to each
-other. We can note that children \textbf{ascribe feelings to the robot and
-partly accept that it can be a ``friend''}.
+%\paragraph{Emotions and Companionship}
+%
+%We examined whether children attribute \textbf{feelings} to the robot by asking
+%them (once at the end of the experiment) if they thought that Ranger can feel
+%happy or sad sometimes. The majority of
+%children (21 of 26) gave a positive answer. Only 2 children who had interacted
+%with the \textit{disobeying} robot did not believe that Ranger has feelings and
+%another 3 children (2 \textit{disobey} and 1 \textit{lost}) did not reply at
+%all. Overall, data suggests that \textbf{children attribute emotional states}
+%to the robot. Asked for more details, several children answered that it is
+%through its colours and sounds that the robot shows a feeling. Most children said
+%that they could make the robot feel happy by playing with it and putting a
+%domino tile inside the box. This may also be a reflection of their own feelings,
+%projected on the robot. About half of the children (14 of 26) agreed that Ranger
+%can be their friend. We did not ask about what being a friend means to them but
+%as children generally liked playing with the robot, this may be linked to each
+%other. We can note that children \textbf{ascribe feelings to the robot and
+%partly accept that it can be a ``friend''}.
 
 \vspace{1em}
 \paragraph{Moral standing}
@@ -1045,7 +1033,7 @@ with the robot understand better how it works, they are more familiar with it,
 and as such the robot appears less ``mystical'' to them, so there is not a big
 need to anthropomorphize it. On the contrary, the cluster of groups that do not
 interact much but anthropomorphize the robot more, is quite homogeneous, and may
-reflect a certain fear of interacting with a robot that would look to them to
+reflect a certain fear of interacting with a robot that would look to them too
 human-like.
 %The negative correlation between the number of engagement actions and the
 %anthropomorphism index suggests that children who interact more with the robot
@@ -1102,7 +1090,7 @@ pairs), and we suggest to investigate the aspect further in future research.
 As hypothesised, we found that in a playful scenario where 4-5 year old children
 play domino together with a robot, the robot seems to be more engaging when it
 shows some misbehaviour compared to when it always behaves as expected
-(notwithstanding the likely impact of a novelty effect).
+(notwithstanding the impact of a novelty effect).
 
 Regarding the design of our three conditions (\emph{lost},
 \emph{disobey}, \emph{mistake}), we cannot conclusively affirm whether children perceived the
@@ -1229,17 +1217,15 @@ go against the intuition.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Acknowledgements}
-%
-% double blind review
-%This research was supported by the Swiss National Science Foundation through the
-%National Centre of Competence in Research Robotics.
+
 We would like to thank all the families who participated to the study.
+This research was supported by the Swiss National Science Foundation through the
+National Centre of Competence in Research Robotics.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bibliographystyle{abbrv}
+\bibliographystyle{IEEEtran}
 \bibliography{domino}
 
-\balancecolumns
 
 \end{document}

@@ -1,6 +1,12 @@
 We thank all the four reviewers for their insights on our contribution.
 
-As a first note, we would like to restate the main focus and contribution of the paper: this article proposes a new investigation of the impact of unexpected behaviours on children's interactions with a robot. To this end, we introduce a novel task and a methodology that blends both subjective reported data by the children, and objective behavioural data. This offers a rich picture of the cognitive engagement of children with the robot, while mitigating biases introduced by self-reporting.
+As a first note, we would like to restate the main focus and contribution of the
+paper: this article proposes a new investigation of the impact of unexpected
+behaviours on children's interactions with a robot. To this end, we introduce a
+novel task and a methodology that blends both subjective reported data by the
+children, and objective behavioural data. This offers a rich picture of the
+cognitive engagement of children with the robot, while mitigating biases
+introduced by self-reporting.
 
 The main outcomes of the article are:
 - an actionable approach (introduction of mis-behaviours) to support engagement,
@@ -8,21 +14,71 @@ The main outcomes of the article are:
 - a new experimental protocol that compares 3 types of mis-behaviours, with different cognitive correlates,
 - a experimental cue that anthropomorphic perceptions do not necessarily correlate with actual engagement.  
 
-Considered as a whole, we are confident that these results constitute a significant contribution to the state of the art, and, as suggested by the reviewers, we are willing to re-organize the article in such a way that this contribution is made clear.
+Considered as a whole, we are confident that these results constitute a
+significant contribution to the state of the art, and, as suggested by the
+reviewers, we are willing to re-organize the article in such a way that this
+contribution is made clear.
 
 We address hereafter the specific points raised by the reviewers:
 
-- R1 raises doubts about the relevance of the "look" action to measure engagement: this is a valid concern, and while in the context of the task, this behaviour appeared to unambiguously mean 'I'm not sure what happens, could you help me?' (ie, reflecting that the child was engaged into understanding the robot's behaviour), we propose to check agreement on this interpretation by having the videos coded by a second coder, and add inter-rater agreement measurements to the final version of the paper (and if necessary, to remove the 'look' action).  As suggested, we also propose to add gaze patterns of the children as a complementary engagement measurement.
+- R1 raises doubts about the relevance of the "look" action to measure
+  engagement: this is a valid concern, and while in the context of the task,
+  this behaviour appeared to unambiguously mean 'I'm not sure what happens,
+  could you help me?' (ie, reflecting that the child was engaged into
+  understanding the robot's behaviour), we propose to check agreement on this
+  interpretation by having the videos coded by a second coder, and add
+  inter-rater agreement measurements to the final version of the paper (and if
+  necessary, to remove the 'look' action).  As suggested, we also propose to add
+  gaze patterns of the children as a complementary engagement measurement.
 
-- R1 raises several questions regarding the scoring scheme of the anthropomorphism index. As we clearly state in section 2.3.3, this weighting scheme is indeed open to debate. Our general approach was to give a stronger weights to factors that involved deeper cognitive interactions. We acknowledge that we did not appropriately justified the scheme, and we propose to add a thorough discussion and also provide internal consistency measurements (a la Cronbach's alpha) between questions belonging to the same constructs.
+- R1 raises several questions regarding the scoring scheme of the
+  anthropomorphism index. As we clearly state in section 2.3.3, this weighting
+  scheme is indeed open to debate. Our general approach was to give a stronger
+  weights to factors that involved deeper cognitive interactions. We acknowledge
+  that we did not appropriately justified the scheme, and we propose to add a
+  thorough discussion and also provide internal consistency measurements (a la
+  Cronbach's alpha) between questions belonging to the same constructs.
 
-- R1 and R3 suggests to remove the citation of the yet-to-appear publication by Fink et al.. It was indeed our mistake to cite this paper, which actually does not add much to this article, except for the theoretical background on anthropomorphism. We propose to remove it (or to make clear that it only provides a theoretical background).  - R2 suggests to take into account the (non-)anthropomorphic design of the robot: since the study compares the perceptions of different children interacting with the *same* robot, we do not expect the degree of anthropomorphic design to strongly influence the results. We propose however to discuss this aspect in relation with the design of the questions.
+- R1 and R3 suggests to remove the citation of the yet-to-appear publication by
+  Fink et al.. It was indeed our mistake to cite this paper, which actually does
+  not add much to this article, except for the theoretical background on
+  anthropomorphism. We propose to remove it (or to make clear that it only
+  provides a theoretical background).
+  
+- R2 suggests to take into account the
+  (non-)anthropomorphic design of the robot: since the study compares the
+  perceptions of different children interacting with the *same* robot, we do not
+  expect the degree of anthropomorphic design to strongly influence the results.
+  We propose however to discuss this aspect in relation with the design of the
+  questions.
 
-- R2 correctly identified an incorrect rounding which led us to report 92 actions per minutes instead of 90.53. We thank her/him for this report.  The average total duration of the interaction with the robot is 13'43'' (ie, 6.6 actions/minute), with an average run duration of 00'59''.  The 145 min reported in the article is the annotation time, that we may indeed omit it in the final revision of the paper since this value is not directly useful to understand the interaction.
+- R2 correctly identified an incorrect rounding which led us to report 92
+  actions per minutes instead of 90.53. We thank her/him for this report.  The
+  average total duration of the interaction with the robot is 13'43'' (ie, 6.6
+  actions/minute), with an average run duration of 00'59''.  The 145 min
+  reported in the article is the annotation time, that we may indeed omit it in
+  the final revision of the paper since this value is not directly useful to
+  understand the interaction.
 
-- R2 suggests to re-organize the presentation of the results to closing follow the hypotheses we present. This will most likely improve the flow of section 3, and we are willing to re-organize in such a way this section.  - R3 raises a question regarding the playmat: the story that was told to children about the river that "they can not cross, only the robot can" was simply to prevent them to just stand up and bring themselves the domino tile to the other child. It provided a rational to use the robot.
+- R2 suggests to re-organize the presentation of the results to closing follow
+  the hypotheses we present. This will most likely improve the flow of section
+  3, and we are willing to re-organize in such a way this section.
 
-- R3 also suggests to use complementary metrics to assess the children behaviours and reports. As proposed, we will annotate gaze tracking as another measure of engagement. We are however not sure about what the reviewer means by "statistically validate [our] results to make a general conclusion for HRI community".
+- R3 raises
+  a question regarding the playmat: the story that was told to children about
+  the river that "they can not cross, only the robot can" was simply to prevent
+  them to just stand up and bring themselves the domino tile to the other child.
+  It provided a rational to use the robot.
 
-- several other points related to the presentation were raised, like missing details in captions, suggestion to present data as a table, explicitly state used statistical test or missing standard deviations on certain figure. We take into account those comments, and will accordingly clarify the presentation.
+- R3 also suggests to use complementary metrics to assess the children
+  behaviours and reports. As proposed, we will annotate gaze tracking as another
+  measure of engagement. We are however not sure about what the reviewer means
+  by "statistically validate [our] results to make a general conclusion for HRI
+  community".
+
+- several other points related to the presentation were raised, like missing
+  details in captions, suggestion to present data as a table, explicitly state
+  used statistical test or missing standard deviations on certain figure. We
+  take into account those comments, and will accordingly clarify the
+  presentation.
 
